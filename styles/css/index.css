@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  background-color: #343a40;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 4rem;
+  color: #0dcaf0;
+  font-weight: 600;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+footer button {
+  background-color: #343a40;
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #0dcaf0;
+  font-weight: 600;
+  transition: 0.3s all;
+  border: 2px solid #343a40;
+}
+footer button:hover {
+  color: #343a40;
+  background-color: #0dcaf0;
+  border: 2px solid #343a40;
+}
+footer button:hover a {
+  text-decoration: none;
+  color: #343a40;
+}
+footer button a {
+  text-decoration: none;
+  color: #0dcaf0;
+}
+
+#sectionTema {
+  margin: 2rem 10rem 0rem 10rem;
+}
+#sectionTema h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #0d6efd;
+}
+#sectionTema h2 i {
+  color: #dc3545;
+}
+#sectionTema .ejercicio {
+  margin: 0;
+  padding: 2rem 2rem;
+  font-size: 1.3rem;
+  border: 1px solid #343a40;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+#indice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 10rem 0rem 10rem;
+}
+#indice h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #0d6efd;
+}
+#indice h2 i {
+  color: #dc3545;
+}
+#indice ul li {
+  font-size: 3rem;
+  list-style: none;
+}
+#indice ul li i {
+  color: #343a40;
+}
+#indice ul li .inumero {
+  color: #dc3545;
+}
+#indice ul li a {
+  color: #343a40;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+#indice ul li a:hover {
+  color: #0d6efd;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.css.map */
