@@ -34,9 +34,10 @@
       );<br>
        
         <p>- count() >>> Contar valores de un array </p>
-        echo 'Total de valores de $meses: '. count($meses);
+        echo 'Total de valores de $meses: '. count($meses);<br>
 
-
+        <p>- Último valor </p>
+        echo 'Total de valores de $meses: '. $meses[count($meses)-1];<br>
 
 
 
@@ -67,6 +68,8 @@
       echo '<p>- count() >>> Contar valores de un array </p>';
       echo 'Total de valores de $meses: '. count($meses);
 
+      echo '<p>- Último valor </p>';
+      echo 'Total de valores de $meses: '. $meses[count($meses)-1];
 
 
       echo '</div>';
