@@ -26,35 +26,50 @@
         <h3>Fundamentos de PHP</h3>
         <ul>
             <li>
-            <i class="bi bi-check-all"></i>
-               <!--  video 6 -->
+                <i class="bi bi-check-all"></i>
+                <!--  video 6 -->
                 <a href="teoria/variables.php">Variables</a>
             </li>
-        </ul>
 
-        <ul>
             <li>
-            <i class="bi bi-check-all"></i>
-             <!--  video 7 -->
+                <i class="bi bi-check-all"></i>
+                <!--  video 7 -->
                 <a href="teoria/constantes.php">Constantes</a>
-            </li>
-        </ul>
 
-        <ul>
+            </li>
+
             <li>
-               <i class="bi bi-check-all"></i>
+                <i class="bi bi-check-all"></i>
                 <!--  video 8 -->
                 <a href="teoria/arrays.php">Arrays Indexados</a>
             </li>
-        </ul>
 
-        <ul>
             <li>
-               <i class="bi bi-check-all"></i>
-               <!--  video 9 -->
+                <i class="bi bi-check-all"></i>
+                <!--  video 9 -->
                 <a href="teoria/arraysAsociativos.php">Arrays Asociativos</a>
             </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 10 -->
+                <a href="teoria/arraysMultidimensionales.php">Arrays Multidimensionales</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 11 -->
+                <a href="teoria/numeroElementosArray.php">Conociendo el número de elementos de un array</a>
+            </li>
+
+
+
+
         </ul>
+
+
+
+
 
     </section>
 

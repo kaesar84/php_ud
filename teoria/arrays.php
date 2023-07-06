@@ -55,7 +55,6 @@
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
       <?php
-      // Nombres de constantes correctos
       $semana = array('Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo');
 
       echo '
@@ -83,7 +82,7 @@
       ?>
     </div>
 
-   
+
 
 
 
