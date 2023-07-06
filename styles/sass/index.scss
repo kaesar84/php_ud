@@ -100,9 +100,17 @@ footer {
 }
 
 // seccion Tema.php
-#sectionTema {
+
+#sectionTema{
   @include containerEjercicios();
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2{
+   align-self: flex-start;
+  }
+ }
 
 // index.php
 #indice {

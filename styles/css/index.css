@@ -54,6 +54,10 @@ footer button a {
 
 #sectionTema {
   margin: 2rem 10rem 0rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 #sectionTema h2 {
   font-size: 3rem;
@@ -79,6 +83,9 @@ footer button a {
 #sectionTema h3 {
   font-size: 1.75rem;
   color: #343a40;
+}
+#sectionTema h2 {
+  align-self: flex-start;
 }
 
 #indice {
