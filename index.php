@@ -15,34 +15,47 @@
 <body>
 
     <?php
-    echo '<header><h1>PHP - Udemy</h1></header>'
+    echo '<header>
+    <img src="media/logophpclaro.png" alt="">
+    </header>'
     ?>
+
 
     <section id="indice">
         <h2>Índice</h2>
+        <h3>Fundamentos de PHP</h3>
         <ul>
             <li>
-                <i class="bi bi-play-circle-fill"></i>
-                <i class="bi bi-6-circle-fill inumero"></i>
+            <i class="bi bi-check-all"></i>
+               <!--  video 6 -->
                 <a href="teoria/variables.php">Variables</a>
             </li>
         </ul>
 
         <ul>
             <li>
-                <i class="bi bi-play-circle-fill"></i>
-                <i class="bi bi-7-circle-fill inumero"></i>
+            <i class="bi bi-check-all"></i>
+             <!--  video 7 -->
                 <a href="teoria/constantes.php">Constantes</a>
             </li>
         </ul>
 
         <ul>
             <li>
-                <i class="bi bi-play-circle-fill"></i>
-                <i class="bi bi-8-circle-fill inumero"></i>
-                <a href="teoria/arrays.php">Arrays</a>
+               <i class="bi bi-check-all"></i>
+                <!--  video 8 -->
+                <a href="teoria/arrays.php">Arrays Indexados</a>
             </li>
         </ul>
+
+        <ul>
+            <li>
+               <i class="bi bi-check-all"></i>
+               <!--  video 9 -->
+                <a href="teoria/arraysAsociativos.php">Arrays Asociativos</a>
+            </li>
+        </ul>
+
     </section>
 
 

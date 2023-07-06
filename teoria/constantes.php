@@ -14,29 +14,46 @@
 
 <body>
 
- <?php
-    echo '<header><h1>PHP - Udemy</h1></header>'
-    ?>
+  <?php
+  echo '<header>
+   <img src="../media/logophpclaro.png" alt="">
+   </header>'
+  ?>
 
   <section id="sectionTema">
     <h2>Constantes</h2>
 
     <div class="container ejercicio">
-      Ejercicio
-      sasada
-      sdasdad
+      <p>Scope global, no permiten la modificación de su valor.</p>
+
+      <div class="cod_html">
+        <h4>Código</h4>
+        define("DAYS_YEAR", 365);<br>
+        define("DAYS_YEAR_BI", 366);<br>
+
+        <br>
+        echo 'El valor de la constante DAYS_YEAR: ' . DAYS_YEAR . '&lt;br&gt;';<br>
+        echo 'El valor de la constante DAYS_YEAR_BI: ' . DAYS_YEAR_BI . '&lt;br&gt;';<br>
+
+      </div>
+
+      <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
+      <?php
+      // Nombres de constantes correctos
+      define("DAYS_YEAR", 365);
+      define("DAYS_YEAR_BI",    366);
+
+      echo '
+      <div class="cod_php">
+      <h4>Resultado</h4>';
+
+      echo 'El valor de la constante DAYS_YEAR: ' . DAYS_YEAR . '<br>';
+      echo 'El valor de la constante DAYS_YEAR_BI: ' . DAYS_YEAR_BI . '<br>';
+
+      ?>
     </div>
 
-    <div class="container ejercicio">
-      Ejercicio
-      sasada
-      sdasdad
-    </div>
-    <div class="container ejercicio">
-      Ejercicio
-      sasada
-      sdasdad
-    </div>
+
 
   </section>
 

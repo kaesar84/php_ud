@@ -11,6 +11,11 @@
       color: variables.$red;
     }
   }
+  h3 {
+    font-size: 2.25rem;
+    padding-bottom: 1rem;
+    color: variables.$primary;
+  }
 }
 
 @mixin containerEjercicios {
@@ -19,9 +24,13 @@
     margin: 0;
     padding: 2rem 2rem;
     font-size: 1.3rem;
-    border: 1px solid variables.$gray-800;
+    border: 1px solid variables.$info;
     border-radius: 0.75rem;
     margin-bottom: 1rem;
+  }
+  h3{
+    font-size: 1.75rem;
+    color: variables.$gray-800;
   }
 }
 
@@ -61,13 +70,19 @@ body {
 header {
   width: 100vw;
   background-color: variables.$gray-800;
-  padding: 1rem;
   text-align: center;
+  margin-bottom: 3rem;
 
   h1 {
     font-size: 4rem;
     color: variables.$info;
     font-weight: 600;
+    
+  }
+
+  img{
+    width: 15rem;
+    height: auto;
   }
 }
 
@@ -102,11 +117,10 @@ footer {
       font-size: 3rem;
       list-style: none;
       i {
-        color: variables.$gray-800;
+        color: variables.$primary;
+        
       }
-      .inumero {
-        color: variables.$danger;
-      }
+     
       a {
         color: variables.$gray-800;
         text-decoration: none;
@@ -118,5 +132,40 @@ footer {
         }
       }
     }
+  }
+}
+
+.cod_html {
+  padding: 1.5rem 2rem;
+  background-color: #f6cdd2;
+  border-radius: 1rem;
+  h4 {
+    font-variant: small-caps;
+    color: variables.$danger;
+  }
+  p{
+    margin-top: 2.5rem;
+    font-weight: 600;
+    color: variables.$danger;
+    
+  }
+}
+
+.cod_php {
+  padding: 1.5rem 2rem;
+  background-color: #c8e3d5;
+  border-radius: 1rem;
+  margin-top: 1rem;
+
+  h4 {
+    font-variant: small-caps;
+    color: variables.$green;
+  }
+
+  p{
+    margin-top: 2.5rem;
+    font-weight: 600;
+    color: variables.$green;
+    
   }
 }
