@@ -1,7 +1,5 @@
 @use "variables";
 
-// mixins
-
 // Titulo de sección y subtitulo
 @mixin tituloSeccion {
   margin: 2rem 10rem 0rem 10rem;
@@ -37,28 +35,37 @@
   }
 }
 
-// Botón
-@mixin botonReturn {
-  background-color: variables.$gray-800;
-  font-size: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 0.5rem;
-  color: variables.$info;
-  font-weight: 600;
-  transition: 0.3s all;
-  border: 2px solid variables.$gray-800;
-  &:hover {
-    color: variables.$gray-800;
-    background-color: variables.$info;
-    border: 2px solid variables.$gray-800;
-    a {
-      text-decoration: none;
-      color: variables.$gray-800;
-    }
+// Contenedor elementos de código
+@mixin elementosCodigo {
+  padding: 1.5rem 2rem;
+  background-color: #f6cdd2;
+  border-radius: 1rem;
+  h4 {
+    font-variant: small-caps;
+    color: variables.$danger;
   }
-  a {
-    text-decoration: none;
-    color: variables.$info;
+  p {
+    margin-top: 2.5rem;
+    font-weight: 600;
+    color: variables.$danger;
+  }
+}
+
+// Contenedor elementos de resultado
+@mixin elementosResultado {
+  padding: 1.5rem 2rem;
+  background-color: #c8e3d5;
+  border-radius: 1rem;
+  margin-top: 1rem;
+
+  h4 {
+    font-variant: small-caps;
+    color: variables.$green;
+  }
+
+  p {
+    margin-top: 2.5rem;
+    font-weight: 600;
+    color: variables.$green;
   }
 }

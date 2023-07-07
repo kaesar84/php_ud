@@ -1,0 +1,32 @@
+@use "mixins";
+@use "variables";
+
+// INDICE
+#indice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  @include mixins.tituloSeccion();
+
+  ul {
+    li {
+      font-size: 2.25rem;
+      list-style: none;
+      i {
+        color: variables.$primary;
+      }
+
+      a {
+        color: variables.$gray-800;
+        text-decoration: none;
+        font-weight: 400;
+        transition: all 0.5s;
+        &:hover {
+          color: variables.$primary;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
