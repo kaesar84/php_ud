@@ -1,6 +1,7 @@
 @use "variables";
+@use "mixins";
 
-// mixins
+/* // mixins
 @mixin tituloSeccion {
   margin: 2rem 10rem 0rem 10rem;
   h2 {
@@ -32,9 +33,9 @@
     font-size: 1.75rem;
     color: variables.$gray-800;
   }
-}
+} */
 
-@mixin botonReturn {
+/* @mixin botonReturn {
   background-color: variables.$gray-800;
   font-size: 1.5rem;
   padding: 0.75rem 1.5rem;
@@ -57,7 +58,7 @@
     text-decoration: none;
     color: variables.$info;
   }
-}
+} */
 
 //general
 body {
@@ -95,14 +96,14 @@ footer {
   padding: 3rem;
 
   button {
-    @include botonReturn();
+    @include mixins.botonReturn();
   }
 }
 
 // seccion Tema.php
 
 #sectionTema{
-  @include containerEjercicios();
+  @include mixins.containerEjercicios();
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,11 +119,11 @@ footer {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  @include tituloSeccion();
+  @include mixins.tituloSeccion();
 
   ul {
     li {
-      font-size: 3rem;
+      font-size: 2.25rem;
       list-style: none;
       i {
         color: variables.$primary;
