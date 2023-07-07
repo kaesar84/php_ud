@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Recorrer Arrays - For each</title>
+  <title>Condicionales - if</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../styles/css/index.css">
@@ -21,50 +21,45 @@
   ?>
 
   <section id="sectionTema">
-    <h2>Recorrer un array - Foreach</h2>
+    <h2>Condicionales - IF</h2>
 
     <div class="container ejercicio">
       <div class="cod_html">
         <h4>Código</h4>
-        <p>- Declaración</p>
-        $meses = array(<br>
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
-        );<br>
+        define("DAYS_YEAR", 365);<br>
+        define("DAYS_YEAR_BI", 366);<br>
 
-        <p>- foreach($array as $elemento) >>> Recorriendo un Array </p>
-        foreach ($meses as $mes) {<br>
-        echo $mes . '&lt;br&gt;';<br>
-        };
+        <br>
+        echo 'El valor de la constante DAYS_YEAR: ' . DAYS_YEAR . '&lt;br&gt;';<br>
+        echo 'El valor de la constante DAYS_YEAR_BI: ' . DAYS_YEAR_BI . '&lt;br&gt;';<br>
 
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
       <?php
+      define("DAYS_YEAR", 365);
+      define("DAYS_YEAR_BI",    366);
+
       echo '
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-      $meses = array(
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-      );
+      echo 'El valor de la constante DAYS_YEAR: ' . DAYS_YEAR . '<br>';
+      echo 'El valor de la constante DAYS_YEAR_BI: ' . DAYS_YEAR_BI . '<br>';
 
-
-      echo '<p>- foreach($array as $elemento) >>> Recorriendo un Array </p>';
-      foreach ($meses as $mes) {
-        echo $mes . '<br>';
-      };
-
-      echo '</div>';
       ?>
     </div>
+
+
 
   </section>
 
   <footer>
     <button type="button" class="btn-return"><a href="../index.php"><i class="bi bi-caret-left-square-fill"></i> Atrás</a></button>
   </footer>
+
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

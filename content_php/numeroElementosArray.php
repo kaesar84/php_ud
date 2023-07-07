@@ -24,7 +24,6 @@
     <h2>Conociendo el número de elementos de un Array</h2>
 
     <div class="container ejercicio">
-      <h3>Declaración, acceso y modificación de valores</h3>
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
@@ -38,17 +37,6 @@
 
         <p>- Último valor </p>
         echo 'Total de valores de $meses: '. $meses[count($meses)-1];<br>
-
-
-
-      
-
-       <!--  <p>- Añadir valores</p>
-        $posicionLiga[4][0]='VILL';<br>
-        $posicionLiga[4][1]=4;<br>
-        <br>
-        echo ' añadida $posicionLiga [4][0]: ' . $posicionLiga[4][0] . '&lt;br&gt;';<br>
-        echo ' añadida $posicionLiga [4][1]: ' . $posicionLiga[4][1] . '&lt;br&gt;';<br> -->
 
       </div>
 

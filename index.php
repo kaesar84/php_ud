@@ -59,13 +59,26 @@
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 11 -->
-                <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un array</a>
+                <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
-                <!--  video 11 -->
-                <a href="content_php/arraysForeach.php">Recorriendo un array - For each</a>
+                <!--  video 12 -->
+                <a href="content_php/arraysForeach.php">Recorriendo un Array - For each</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 13 -->
+                <a href="content_php/arraysOrdenar.php">Ordenar Arrays</a>
+            </li>
+
+            
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 14 -->
+                <a href="content_php/condicionales-if.php">Condicionales - IF</a>
             </li>
 
 
