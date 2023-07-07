@@ -28,44 +28,44 @@
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 6 -->
-                <a href="teoria/variables.php">Variables</a>
+                <a href="content_php/variables.php">Variables</a>
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 7 -->
-                <a href="teoria/constantes.php">Constantes</a>
+                <a href="content_php/constantes.php">Constantes</a>
 
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 8 -->
-                <a href="teoria/arrays.php">Arrays Indexados</a>
+                <a href="content_php/arrays.php">Arrays Indexados</a>
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 9 -->
-                <a href="teoria/arraysAsociativos.php">Arrays Asociativos</a>
+                <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 10 -->
-                <a href="teoria/arraysMultidimensionales.php">Arrays Multidimensionales</a>
+                <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 11 -->
-                <a href="teoria/numeroElementosArray.php">Conociendo el número de elementos de un array</a>
+                <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un array</a>
             </li>
 
             <li>
                 <i class="bi bi-check-all"></i>
                 <!--  video 11 -->
-                <a href="teoria/arraysForeach.php">Recorriendo un array - For each</a>
+                <a href="content_php/arraysForeach.php">Recorriendo un array - For each</a>
             </li>
 
 
