@@ -62,7 +62,11 @@
                 <a href="teoria/numeroElementosArray.php">Conociendo el número de elementos de un array</a>
             </li>
 
-
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 11 -->
+                <a href="teoria/arraysForeach.php">Recorriendo un array - For each</a>
+            </li>
 
 
         </ul>
