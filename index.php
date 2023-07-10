@@ -81,6 +81,23 @@
                 <a href="content_php/condicionales-if.php">Condicionales - IF</a>
             </li>
 
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 15 -->
+                <a href="content_php/condicionales-ifelse.php">Condicionales - IF - ELSE IF</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 16 - 17 -->
+                <a href="content_php/operadores.php">Operadores</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 18 -->
+                <a href="content_php/switch.php">Switch</a>
+            </li>
 
         </ul>
 
