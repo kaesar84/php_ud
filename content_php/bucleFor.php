@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Switch</title>
+  <title>Bucle FOR</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../styles/css/index.css">
@@ -21,48 +21,20 @@
   ?>
 
   <section id="sectionTema">
-    <h2>Switch</h2>
+    <h2>Bucle FOR</h2>
 
     <div class="container ejercicio">
       <div class="cod_html">
         <h4>Código</h4>
 
+        $numero = 7; <br>
 
-        $dia = 5;<br>
+        echo 'Número de repeticiones: ' . $numero; <br>
         <br>
-        switch ($dia) {<br>
-        <br>
-        case 1: <br>
-        echo 'Lunes'; <br>
-        break;<br>
-        <br>
-        case 2:<br>
-        echo 'Martes';<br>
-        break;<br>
-        <br>
-        case 3:<br>
-        echo 'Miércoles';<br>
-        break;<br>
-        <br>
-        case 4:<br>
-        echo 'Jueves';<br>
-        break;<br>
-        <br>
-        case 5:<br>
-        echo 'Viernes';<br>
-        break;<br>
-        <br>
-        case 6:<br>
-        echo 'Sábado';<br>
-        break;<br>
-        <br>
-        case 7:<br>
-        echo 'Domingo';
-        break;<br>
-        <br>
-        default: <br>
-        echo 'Día incorrecto'; <br>
-        }
+
+        for ($i = 0; $i < $numero; $i++) { <br>
+          echo 'Valor de $i: ' . $i . ' --- Numero de repetición ($i+1): ' . ($i + 1) . '&lt;br&gt;';<br> } <br>echo '>>> Repeticiones finalizadas' ;
+
 
       </div>
 
@@ -73,40 +45,17 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-      $dia = 5;
+      $numero = 7;
 
-      echo '$dia = ' . $dia . '<br>';
-      switch ($dia) {
-        case 1:
-          echo 'Lunes';
-          break;
-        case 2:
-          echo 'Martes';
-          break;
-        case 3:
-          echo 'Miércoles';
-          break;
-        case 4:
-          echo 'Jueves';
-          break;
-        case 5:
-          echo 'Viernes';
-          break;
-        case 6:
-          echo 'Sábado';
-          break;
-        case 7:
-          echo 'Domingo';
-          break;
-        default:
-          echo 'Día incorrecto';
+      echo 'Número de repeticiones: ' . $numero;
+      echo '<br>';
+      echo '<br>';
+
+      for ($i = 0; $i < $numero; $i++) {
+        echo 'Valor de $i: ' . $i . ' --- Numero de repetición ($i+1): ' . ($i + 1)   . '<br>';
       }
-
-
-
-
-
-
+      echo '<br>';
+      echo '>>> Repeticiones finalizadas';
 
 
 
