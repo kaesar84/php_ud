@@ -64,6 +64,12 @@
 
             <li>
                 <i class="bi bi-check-all"></i>
+                <!--  video 22 -->
+                <a href="content_php/arraysForWhile.php">Recorriendo un array - For / While</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
                 <!--  video 12 -->
                 <a href="content_php/arraysForeach.php">Recorriendo un Array - For each</a>
             </li>
@@ -117,6 +123,25 @@
                 <!--  video 21 -->
                 <a href="content_php/bucleWhile.php">Bucle WHILE</a>
             </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 23 -->
+                <a href="content_php/bucleDoWhile.php">Bucle DO WHILE</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 24 -->
+                <a href="content_php/bucleForEach.php">Bucle FOR EACH</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 25 -->
+                <a href="content_php/breackContinue.php">Break - Continue</a>
+            </li>
+
 
 
         </ul>
