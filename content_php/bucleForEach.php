@@ -28,20 +28,20 @@
       <div class="cod_html">
         <h4>Código</h4>
 
-        <p>- Declaración</p>
-        $meses = array(<br>
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
-        );<br>
+        <code>
+          $meses = array(<br>
+          'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
+          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
+          );<br>
 
-        <br>
+          <br>
 
-        echo '&lt;ul&gt;';<br>
-        foreach ($meses as $mes) { <br>
-        echo '&lt;/li&gt;' . $mes . '&lt;/li&gt;';<br>;
-        } <br>
-        echo '&lt;/ul&gt;';<br>
-
+          echo '&lt;ul&gt;';<br>
+          foreach ($meses as $mes) { <br>
+          echo '&lt;/li&gt;' . $mes . '&lt;/li&gt;';<br>;
+          } <br>
+          echo '&lt;/ul&gt;';<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -71,17 +71,15 @@
       <div class="cod_html">
         <h4>Código</h4>
 
-        <p>- Declaración</p>
-        $persona = array('nombre' => 'César', 'apellido1' => 'Fernández', 'apellido2' => 'Sánchez', 'télefono' => 635450972, 'edad' => 39, 'ciudad' => 'Barcelona');<br><br>
-
-        <br>
-
-        echo '&lt;ul&gt;';<br>
-        foreach ($persona as $dato => $valor) { <br>
-        echo '&lt;/li&gt; Dato: ' . $dato . ' >>> Valor: ' . $valor . '&lt;/li&gt;';<br>;
-        } <br>
-        echo '&lt;/ul&gt;';<br>
-
+        <code>
+          $persona = array('nombre' => 'César', 'apellido1' => 'Fernández', 'apellido2' => 'Sánchez', 'télefono' => 635450972, 'edad' => 39, 'ciudad' => 'Barcelona');<br>
+          <br>
+          echo '&lt;ul&gt;';<br>
+          foreach ($persona as $dato => $valor) { <br>
+          echo '&lt;/li&gt; Dato: ' . $dato . ' >>> Valor: ' . $valor . '&lt;/li&gt;';<br>;
+          } <br>
+          echo '&lt;/ul&gt;';<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

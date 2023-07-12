@@ -27,17 +27,22 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
-        $meses = array(<br>
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
-      );<br>
-       
+        <code>
+          $meses = array(<br>
+          'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
+          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
+          );<br>
+        </code>
+
         <p>- count() >>> Contar valores de un array </p>
-        echo 'Total de valores de $meses: '. count($meses);<br>
+        <code>
+          echo 'Total de valores de $meses: '. count($meses);<br>
+        </code>
 
         <p>- Último valor </p>
-        echo 'Total de valores de $meses: '. $meses[count($meses)-1];<br>
-
+        <code>
+          echo 'Total de valores de $meses: '. $meses[count($meses)-1];<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -54,10 +59,10 @@
       );
 
       echo '<p>- count() >>> Contar valores de un array </p>';
-      echo 'Total de valores de $meses: '. count($meses);
+      echo 'Total de valores de $meses: ' . count($meses);
 
       echo '<p>- Último valor </p>';
-      echo 'Total de valores de $meses: '. $meses[count($meses)-1];
+      echo 'Total de valores de $meses: ' . $meses[count($meses) - 1];
 
 
       echo '</div>';

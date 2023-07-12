@@ -28,26 +28,31 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
+        <code>
         $persona = array('nombre' => 'César', 'apellido1' => 'Fernández', 'apellido2' => 'Sánchez', 'télefono' => 635450972, 'edad' => 39, 'ciudad' => 'Barcelona');<br><br>
         $persona2 = ['nombre' => 'Lucas', 'apellido1' => 'Fernández', 'apellido2' => 'Sánchez', 'télefono' => 635450972, 'edad' => 39, 'ciudad' => 'Barcelona'];<br>
-
+        </code>
 
         <p>- Acceso valores</p>
+        <code>
         echo 'Este es el nombre de la $persona: ' . $persona['nombre'] .'&lt;br&gt;';<br>
         echo 'Este es el apellido1 de la $persona: ' . $persona['apellido1'] .'&lt;br&gt;';<br>
         echo 'Este es el apellido2 de la $persona: ' . $persona['apellido2'] .'&lt;br&gt;';<br>
         echo 'Este es el télefono de la $persona: ' . $persona['télefono'] .'&lt;br&gt;';<br>
         echo 'Este es el edad de la $persona: ' . $persona['edad'] .'&lt;br&gt;';<br>
         echo 'Este es el ciudad de la $persona: ' . $persona['ciudad'] .'&lt;br&gt;';<br>
+        </code>
 
         <p>- Modificación valores</p>
+        <code>
         $persona['edad']=40;<br>
         echo 'La nueva edad de $persona es: ' . $persona['edad'] . '&lt;br&gt;';<br>
-
+        </code>
         <p>- Añadir valores</p>
+        <code>
         $persona['sexo']='Masculino';<br>
         echo 'El sexo de la $persona es: ' . $persona['sexo']. '&lt;br&gt;';<br>
-
+        </code>
 
       </div>
 

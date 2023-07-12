@@ -24,29 +24,29 @@
     <h2>Operadores</h2>
 
     <div class="container ejercicio">
-      <p>Aritméticos</p>
+      <h3>Aritméticos</h3>
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
+          $numero1 = 5; <br>
+          $numero2= 5; <br>
+          <br>
+          $suma = $numero1 + $numero2;<br>
+          echo 'El resultado de '. $numero1 . ' + ' . $numero2 . ' = ' .$suma .'&lt;br&gt;';<br>
+          <br>
+          $resta = $numero1 - $numero2;<br>
+          echo 'El resultado de '. $numero1 . ' - ' . $numero2 . ' = ' .$resta.'&lt;br&gt;';<br>
+          <br>
+          $multi = $numero1 * $numero2;<br>
+          echo 'El resultado de '. $numero1 . ' * ' . $numero2 . ' = ' .$multi.'&lt;br&gt;';<br>
+          <br>
+          $divi = $numero1 / $numero2;<br>
+          echo 'El resultado de '. $numero1 . ' / ' . $numero2 . ' = ' .$divi.'&lt;br&gt;';<br>
+          <br>
+          $modulo = $numero1 % $numero2;<br>
+          echo 'El resultado de '. $numero1 . ' % ' . $numero2 . ' = ' .$modulo.'&lt;br&gt;';<br>
 
-        $numero1 = 5; <br>
-        $numero2= 5; <br>
-        <br>
-        $suma = $numero1 + $numero2;<br>
-        echo 'El resultado de '. $numero1 . ' + ' . $numero2 . ' = ' .$suma .'&lt;br&gt;';<br>
-        <br>
-        $resta = $numero1 - $numero2;<br>
-        echo 'El resultado de '. $numero1 . ' - ' . $numero2 . ' = ' .$resta.'&lt;br&gt;';<br>
-        <br>
-        $multi = $numero1 * $numero2;<br>
-        echo 'El resultado de '. $numero1 . ' * ' . $numero2 . ' = ' .$multi.'&lt;br&gt;';<br>
-        <br>
-        $divi = $numero1 / $numero2;<br>
-        echo 'El resultado de '. $numero1 . ' / ' . $numero2 . ' = ' .$divi.'&lt;br&gt;';<br>
-        <br>
-        $modulo = $numero1 % $numero2;<br>
-        echo 'El resultado de '. $numero1 . ' % ' . $numero2 . ' = ' .$modulo.'&lt;br&gt;';<br>
-
-
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -81,7 +81,7 @@
 
 
     <div class="container ejercicio">
-      <p>Asignación</p>
+      <h3>Asignación</h3>
       <div class="cod_html">
         <h4>Código</h4>
         $numero1 = 33;
@@ -167,57 +167,69 @@
     </div>
 
     <div class="container ejercicio">
-      <p>Lógicos</p>
+      <h3>Lógicos</h3>
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
+          $edad = 18;<br>
+          $edadM = 17; <br>
+          echo 'Edad: ' . $edad . '&lt;br&gt;';<br>
+          echo 'Edad: ' . $edadM . '&lt;br&gt;';<br>
 
-        $edad = 18;<br>
-        $edadM = 17; <br>
-        echo 'Edad: ' . $edad . '&lt;br&gt;';<br>
-        echo 'Edad: ' . $edadM . '&lt;br&gt;';<br>
-
-        echo 'EdadStr: ' . $edadStr . '&lt;br&gt;';<br>
+          echo 'EdadStr: ' . $edadStr . '&lt;br&gt;';<br>
+        </code>
 
         <p>Condiciones >>> == >>> Igualdad simple</p>
-        if($edad==$edadStr){ <br>
-        echo ' Igualdad simple , TRUE'; <br>
-        } <br>
+        <code>
+          if($edad==$edadStr){ <br>
+          echo ' Igualdad simple , TRUE'; <br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> === >>> Igualdad estricta - Mismo valor y mismo tipo</p>
-        if($edad===$edadStr){ <br>
-        echo ' Igualdad simple, TRUE'; <br>
-        }else{ <br>
-        echo 'Igualdad estricta, FALSE'; <br>
-        } <br>
+        <code>
+          if($edad===$edadStr){ <br>
+          echo ' Igualdad simple, TRUE'; <br>
+          }else{ <br>
+          echo 'Igualdad estricta, FALSE'; <br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> != >>> Aplica la diferencia</p>
-        if ($nombreM != 'César') { <br>
-        echo $nombreM . ', No eres César'; <br>
-        } <br>
+        <code>
+          if ($nombreM != 'César') { <br>
+          echo $nombreM . ', No eres César'; <br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> and - && >>> Deben cumplirse todas</p>
-        if ($edad >= 18 && $nombre == 'César') { <br>
-        echo $nombre . ', Eres mayor de edad'&lt;br&gt;Acceso permitido.'; <br>
-        } else { <br>
-        echo $nombre . ', Eres menor de edad'&lt;br&gt;Acceso denegado'; <br>
-        } <br>
+        <code>
+          if ($edad >= 18 && $nombre == 'César') { <br>
+          echo $nombre . ', Eres mayor de edad'&lt;br&gt;Acceso permitido.'; <br>
+          } else { <br>
+          echo $nombre . ', Eres menor de edad'&lt;br&gt;Acceso denegado'; <br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> or - || >>> Debe cumplirse mínimo 1 condición</p>
-        if ($edadM >= 18 or $nombreM == 'Gerard') { <br>
-        echo $nombreM. ', Acceso permitido'; <br>
-        } else { <br>
-        echo $nombreM. ', Acceso denegado';<br>
-        } <br>
+        <code>
+          if ($edadM >= 18 or $nombreM == 'Gerard') { <br>
+          echo $nombreM. ', Acceso permitido'; <br>
+          } else { <br>
+          echo $nombreM. ', Acceso denegado';<br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> xor >>> Evalua que se cumpla una y solo una condición</p>
-        if ($edadM > 18 XOR $nombreM == 'César' && $nombreM=='Gerard') { <br>
-        echo $nombreM . ', Acceso permitido'; <br>
-        } else { <br>
-        echo $nombreM . ', Acceso denegado'; <br>
-        } <br>
+        <code>
+          if ($edadM > 18 XOR $nombreM == 'César' && $nombreM=='Gerard') { <br>
+          echo $nombreM . ', Acceso permitido'; <br>
+          } else { <br>
+          echo $nombreM . ', Acceso denegado'; <br>
+          } <br>
 
+        </code>
 
-        <br>
 
       </div>
 
@@ -300,36 +312,39 @@
     </div>
 
     <div class="container ejercicio">
-      <p>Inremento - Decremento</p>
+      <h3>Inremento - Decremento</h3>
       <div class="cod_html">
         <h4>Código</h4>
 
         <p>++$variable</p>
-        echo '$numero1 = ' . $numero1; <br>
-        <br>
-        ++$numero1; <br>
-        echo 'Resultado: ' . $numero1 . '&lt;br&gt;';<br>
-
+        <code>
+          echo '$numero1 = ' . $numero1; <br>
+          <br>
+          ++$numero1; <br>
+          echo 'Resultado: ' . $numero1 . '&lt;br&gt;';<br>
+        </code>
 
         <p>$variable++</p>
-        echo '$numero1++; <br>
-        echo 'Resultado: ' . $numero1++ . '&lt;br&gt;';<br>
-
+        <code>
+          echo '$numero1++; <br>
+          echo 'Resultado: ' . $numero1++ . '&lt;br&gt;';<br>
+        </code>
 
         <p>--$variable</p>
-        echo '$numero1 = ' . $numero1;
-
-        --$numero1; <br>
-        echo '--$numero1; <br>
-        echo 'Resultado: ' . $numero1 . '&lt;br&gt;';<br>
+        <code>
+          echo '$numero1 = ' . $numero1;
+          --$numero1; <br>
+          echo '--$numero1; <br>
+          echo 'Resultado: ' . $numero1 . '&lt;br&gt;';<br>
+        </code>
 
         <p>$variable--</p>
-        echo '$numero1 = ' . $numero1; <br>
-
-        $numero1--; <br>
-        echo '$numero1--; <br>
-        echo 'Resultado: ' . $numero1 . '&lt;br&gt;';<br>
-
+        <code>
+          echo '$numero1 = ' . $numero1; <br>
+          $numero1--; <br>
+          echo '$numero1--; <br>
+          echo 'Resultado: ' . $numero1 . '&lt;br&gt;';<br>
+        </code>
 
       </div>
 
@@ -379,31 +394,35 @@
     </div>
 
     <div class="container ejercicio">
-      <p>De cadenas</p>
+      <h3>De cadenas</h3>
       <div class="cod_html">
         <h4>Código</h4>
-
-        $palabra1 = 'Hola '; <br>
-        $palabra2 = 'Guapo'; <br>
+        <code>
+          $palabra1 = 'Hola '; <br>
+          $palabra2 = 'Guapo'; <br>
+        </code>
 
         <p> . </p>
-        echo '$palabra1 = ' . $palabra1; <br>
-        echo '&lt;br&gt;';<br>
-        echo '$palabra2 = ' . $palabra2; <br>
-        echo '&lt;br&gt;';<br>
+        <code>
+          echo '$palabra1 = ' . $palabra1; <br>
+          echo '&lt;br&gt;';<br>
+          echo '$palabra2 = ' . $palabra2; <br>
+          echo '&lt;br&gt;';<br>
 
-        $palabra3 = $palabra1 . $palabra2; <br>
-        echo '$palabra3 = ' . $palabra3; <br>
+          $palabra3 = $palabra1 . $palabra2; <br>
+          echo '$palabra3 = ' . $palabra3; <br>
+        </code>
 
         <p> .= </p>
-        $palabra4 = $palabra1 .= $palabra2; <br>
-        <br>
-        echo '$palabra4 = ' . $palabra4; <br>
+        <code>
+          $palabra4 = $palabra1 .= $palabra2; <br>
+          <br>
+          echo '$palabra4 = ' . $palabra4; <br>
 
-        echo '$palabra1 = ' . $palabra1 . ' >>> Ha sido modificada al concatenar'; <br>
+          echo '$palabra1 = ' . $palabra1 . ' >>> Ha sido modificada al concatenar'; <br>
 
-        echo '$palabra2 = ' . $palabra2;
-
+          echo '$palabra2 = ' . $palabra2;
+        </code>
 
       </div>
 

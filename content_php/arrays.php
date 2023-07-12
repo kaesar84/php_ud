@@ -28,29 +28,37 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
-        $semana = array('Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo');<br>
-        $semana2 = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];<br>
+        <code>
+          $semana = array('Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo');<br>
+          $semana2 = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];<br>
+        </code>
 
         <p>- Acceso valores</p>
-        echo 'Posición [0] - '. $semana[0] .'&lt;br&gt;';<br>
-        echo 'Posición [1] - '. $semana[1] .'&lt;br&gt;';<br>
-        echo 'Posición [2] - '. $semana[2] .'&lt;br&gt;';<br>
-        echo 'Posición [3] - '. $semana[3] .'&lt;br&gt;';<br>
-        echo 'Posición [4] - '. $semana[4] .'&lt;br&gt;';<br>
-        echo 'Posición [5] - '. $semana[5] .'&lt;br&gt;';<br>
-        echo 'Posición [6] - '. $semana[6] .'&lt;br&gt;';<br>
+        <code>
+          echo 'Posición [0] - '. $semana[0] .'&lt;br&gt;';<br>
+          echo 'Posición [1] - '. $semana[1] .'&lt;br&gt;';<br>
+          echo 'Posición [2] - '. $semana[2] .'&lt;br&gt;';<br>
+          echo 'Posición [3] - '. $semana[3] .'&lt;br&gt;';<br>
+          echo 'Posición [4] - '. $semana[4] .'&lt;br&gt;';<br>
+          echo 'Posición [5] - '. $semana[5] .'&lt;br&gt;';<br>
+          echo 'Posición [6] - '. $semana[6] .'&lt;br&gt;';<br>
+        </code>
 
         <p>- Acceso valores</p>
-        echo 'Posición [0] - '. $semana[0] .'&lt;br&gt;';<br>
+        <code>
+          echo 'Posición [0] - '. $semana[0] .'&lt;br&gt;';<br>
+        </code>
 
         <p>- Modificación valores</p>
-        $semana[0] = '💀';<br>
-        echo 'Posición [0] - ' . $semana[0] . '&lt;br&gt;';<br>
-
+        <code>
+          $semana[0] = '💀';<br>
+          echo 'Posición [0] - ' . $semana[0] . '&lt;br&gt;';<br>
+        </code>
         <p>- Añadir valores</p>
-        $semana[7] = '🥳';<br>
-        echo 'Posición [7] - ' . $semana[7] . '&lt;br&gt;';<br>
-
+        <code>
+          $semana[7] = '🥳';<br>
+          echo 'Posición [7] - ' . $semana[7] . '&lt;br&gt;';<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

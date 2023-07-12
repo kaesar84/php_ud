@@ -27,27 +27,29 @@
       <p>Una condición</p>
       <div class="cod_html">
         <h4>Código</h4>
-
-        $edad = 18;<br>
-        $edadM = 17; <br>
-        echo 'Edad: ' . $edad . '&lt;br&gt;';<br>
-        echo 'Edad: ' . $edadM . '&lt;br&gt;';<br>
+        <code>
+          $edad = 18;<br>
+          $edadM = 17; <br>
+          echo 'Edad: ' . $edad . '&lt;br&gt;';<br>
+          echo 'Edad: ' . $edadM . '&lt;br&gt;';<br>
+        </code>
 
         <p>- Estructura condicional if</p>
-        if ($edad >= 18) { <br>
-        echo 'Eres mayor de edad'; <br>
-        } else { <br>
-        echo 'Eres menor de edad'; <br>
-        }
-        <br><br>
-        if ($edadM >= 18) { <br>
-        echo 'Eres mayor de edad'; <br>
-        } else { <br>
-        echo 'Eres menor de edad'; <br>
-        }
+        <code>
+          if ($edad >= 18) { <br>
+          echo 'Eres mayor de edad'; <br>
+          } else { <br>
+          echo 'Eres menor de edad'; <br>
+          }
+          <br><br>
+          if ($edadM >= 18) { <br>
+          echo 'Eres mayor de edad'; <br>
+          } else { <br>
+          echo 'Eres menor de edad'; <br>
+          }
 
-        <br>
-
+          <br>
+        </code>
 
       </div>
 
@@ -68,7 +70,6 @@
         echo 'Eres menor de edad';
       }
 
-
       $edadM = 17;
       echo '<br><br>Edad: ' . $edadM . '<br>';
       echo 'Resultado del if<br>';
@@ -77,8 +78,6 @@
       } else {
         echo 'Eres menor de edad';
       }
-
-
       echo '</div>';
       ?>
     </div>
@@ -88,38 +87,38 @@
       <p>Más de una condición</p>
       <div class="cod_html">
         <h4>Código</h4>
-
-        $edad = 18;<br>
-        $edadM = 17; <br>
-        echo 'Edad: ' . $edad . '&lt;br&gt;';<br>
-        echo 'Edad: ' . $edadM . '&lt;br&gt;';<br>
-
+        <code>
+          $edad = 18;<br>
+          $edadM = 17; <br>
+          echo 'Edad: ' . $edad . '&lt;br&gt;';<br>
+          echo 'Edad: ' . $edadM . '&lt;br&gt;';<br>
+        </code>
         <p>Condiciones >>> && >>> Deben cumplirse todas</p>
-
-        if ($edad >= 18 && $nombre == 'César') { <br>
-        echo $nombre . ', Eres mayor de edad'&lt;br&gt;Acceso permitido.'; <br>
-        } else { <br>
-        echo $nombre . ', Eres menor de edad'&lt;br&gt;Acceso denegado'; <br>
-        } <br>
+        <code>
+          if ($edad >= 18 && $nombre == 'César') { <br>
+          echo $nombre . ', Eres mayor de edad'&lt;br&gt;Acceso permitido.'; <br>
+          } else { <br>
+          echo $nombre . ', Eres menor de edad'&lt;br&gt;Acceso denegado'; <br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> or - || >>> Debe cumplirse mínimo 1 condición</p>
-
-        if ($edadM >= 18 or $nombreM == 'Gerard') { <br>
-        echo $nombreM. ', Acceso permitido'; <br>
-        } else { <br>
-        echo $nombreM. ', Acceso denegado';<br>
-        } <br>
+        <code>
+          if ($edadM >= 18 or $nombreM == 'Gerard') { <br>
+          echo $nombreM. ', Acceso permitido'; <br>
+          } else { <br>
+          echo $nombreM. ', Acceso denegado';<br>
+          } <br>
+        </code>
 
         <p>Condiciones >>> xor - >>> Evalua que se cumpla una y solo una condición</p>
-
-        if ($edadM > 18 XOR $nombreM == 'César' && $nombreM=='Gerard') { <br>
-        echo $nombreM . ', Acceso permitido'; <br>
-        } else { <br>
-        echo $nombreM . ', Acceso denegado'; <br>
-        } <br>
-
-        <br>
-
+        <code>
+          if ($edadM > 18 XOR $nombreM == 'César' && $nombreM=='Gerard') { <br>
+          echo $nombreM . ', Acceso permitido'; <br>
+          } else { <br>
+          echo $nombreM . ', Acceso denegado'; <br>
+          } <br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

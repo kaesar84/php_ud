@@ -28,37 +28,44 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
-        $posicionLiga = array(<br>
-        array('FCB', 1),<br>
-        array('RMC', 2),<br>
-        array('ATM', 3),<br>
-        array('RSC', 4) <br>
-        );
+
+        <code>
+          $posicionLiga = array(<br>
+          array('FCB', 1),<br>
+          array('RMC', 2),<br>
+          array('ATM', 3),<br>
+          array('RSC', 4) <br>
+          );
+        </code>
 
         <p>- Acceso valores</p>
-        echo '$posicionLiga [0][0]: ' . $posicionLiga[0][0]. .'&lt;br&gt;';<br>
-        echo '$posicionLiga [0][1]: ' . $posicionLiga[0][1] . .'&lt;br&gt;';<br>
-        <br>
-        echo '$posicionLiga [1][0]: ' . $posicionLiga[1][0] . .'&lt;br&gt;';<br>
-        echo '$posicionLiga [1][1]: ' . $posicionLiga[1][1] . .'&lt;br&gt;';<br>
-        <br>
-        echo '$posicionLiga [2][0]: ' . $posicionLiga[2][0] . .'&lt;br&gt;';<br>
-        echo '$posicionLiga [2][1]: ' . $posicionLiga[2][1] . .'&lt;br&gt;';<br>
-        <br>
-        echo '$posicionLiga [3][0]: ' . $posicionLiga[3][0] . .'&lt;br&gt;';<br>
-        echo '$posicionLiga [3][1]: ' . $posicionLiga[3][1] . .'&lt;br&gt;';<br>
+        <code>
+          echo '$posicionLiga [0][0]: ' . $posicionLiga[0][0]. .'&lt;br&gt;';<br>
+          echo '$posicionLiga [0][1]: ' . $posicionLiga[0][1] . .'&lt;br&gt;';<br>
+          <br>
+          echo '$posicionLiga [1][0]: ' . $posicionLiga[1][0] . .'&lt;br&gt;';<br>
+          echo '$posicionLiga [1][1]: ' . $posicionLiga[1][1] . .'&lt;br&gt;';<br>
+          <br>
+          echo '$posicionLiga [2][0]: ' . $posicionLiga[2][0] . .'&lt;br&gt;';<br>
+          echo '$posicionLiga [2][1]: ' . $posicionLiga[2][1] . .'&lt;br&gt;';<br>
+          <br>
+          echo '$posicionLiga [3][0]: ' . $posicionLiga[3][0] . .'&lt;br&gt;';<br>
+          echo '$posicionLiga [3][1]: ' . $posicionLiga[3][1] . .'&lt;br&gt;';<br>
+        </code>
 
         <p>- Modificación valores</p>
-        $posicionLiga [1][0]='BET';<br>
-        echo 'Nueva $posicionLiga [1][0]: ' . $posicionLiga[1][0] . '&lt;br&gt;';<br>
-
+        <code>
+          $posicionLiga [1][0]='BET';<br>
+          echo 'Nueva $posicionLiga [1][0]: ' . $posicionLiga[1][0] . '&lt;br&gt;';<br>
+        </code>
         <p>- Añadir valores</p>
-        $posicionLiga[4][0]='VILL';<br>
-        $posicionLiga[4][1]=4;<br>
-        <br>
-        echo ' añadida $posicionLiga [4][0]: ' . $posicionLiga[4][0] . '&lt;br&gt;';<br>
-        echo ' añadida $posicionLiga [4][1]: ' . $posicionLiga[4][1] . '&lt;br&gt;';<br>
-
+        <code>
+          $posicionLiga[4][0]='VILL';<br>
+          $posicionLiga[4][1]=4;<br>
+          <br>
+          echo ' añadida $posicionLiga [4][0]: ' . $posicionLiga[4][0] . '&lt;br&gt;';<br>
+          echo ' añadida $posicionLiga [4][1]: ' . $posicionLiga[4][1] . '&lt;br&gt;';<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

@@ -28,18 +28,21 @@
         <h4>Código</h4>
 
         <p>Ejemplo 1</p>
-        $edad; <br>
-        // isset válida si la variable tiene asignado valor (1 para true) <br>
-        $edad = (isset($edad)) ? <br> $edad : <br> 'No introducida' <br>; <br>
-        echo 'Edad: ' . $edad;
+        <code>
+          $edad; <br>
+          // isset válida si la variable tiene asignado valor (1 para true) <br>
+          $edad = (isset($edad)) ? <br> $edad : <br> 'No introducida' <br>; <br>
+          echo 'Edad: ' . $edad;
+        </code>
         <br>
         <p>Ejemplo 2</p>
-        $edad = 18; <br>
-        echo 'Edad: ' . $edad; <br>
-        <br>
-        $respuesta = ($edad >= 18) ? <br> 'Tienes ' . $edad . ', Eres mayor de edad' : <br> 'Tienes ' . $edad . ', Eres menor de edad' <br>; <br>
-        echo $respuesta;
-
+        <code>
+          $edad = 18; <br>
+          echo 'Edad: ' . $edad; <br>
+          <br>
+          $respuesta = ($edad >= 18) ? <br> 'Tienes ' . $edad . ', Eres mayor de edad' : <br> 'Tienes ' . $edad . ', Eres menor de edad' <br>; <br>
+          echo $respuesta;
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

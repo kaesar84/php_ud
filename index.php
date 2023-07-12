@@ -142,6 +142,18 @@
                 <a href="content_php/breackContinue.php">Break - Continue</a>
             </li>
 
+            
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 26 -->
+                <a href="content_php/varDump.php">Función var_dump()</a>
+            </li>
+
+            <li>
+                <i class="bi bi-check-all"></i>
+                <!--  video 27 -->
+                <a href="content_php/print.php">Función print()</a>
+            </li>
 
 
         </ul>
@@ -155,3 +167,5 @@
 </body>
 
 </html>
+
+<!-- '&lt;br&gt;';<br>; -->

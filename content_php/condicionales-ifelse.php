@@ -27,21 +27,21 @@
       <p>Una condición</p>
       <div class="cod_html">
         <h4>Código</h4>
-
-        $nombre = 'Austin'; <br>
-        <br>
-        if($nombre == 'Carlos'){ <br>
-        echo 'El nombre es Carlos'; <br>
-        } <br>
-        else if($nombre== 'Ramiro'){ <br>
-        echo 'El nombre es Ramiro'; <br>
-        } <br>
-        else if($nombre=='César'){ <br>
-        echo 'El nombre es César'; <br>
-        }else{ <br>
-        echo 'Nombre no reconocido'; <br>
-        } <br>
-
+        <code>
+          $nombre = 'Austin'; <br>
+          <br>
+          if($nombre == 'Carlos'){ <br>
+          echo 'El nombre es Carlos'; <br>
+          } <br>
+          else if($nombre== 'Ramiro'){ <br>
+          echo 'El nombre es Ramiro'; <br>
+          } <br>
+          else if($nombre=='César'){ <br>
+          echo 'El nombre es César'; <br>
+          }else{ <br>
+          echo 'Nombre no reconocido'; <br>
+          } <br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

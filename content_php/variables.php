@@ -32,9 +32,11 @@
       <!-- >>>>>>>>>>>>>>>>>>>> HTML -->
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
         $nombre = 'César';
         <br>
         echo 'Soy un string: '. $nombre
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -54,9 +56,11 @@
       <h3>Integer</h3>
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
         $numero = 1;
         <br>
         echo 'Soy un número entero: '. $numero;
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -76,9 +80,11 @@
       <h3>Double</h3>
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
         $decimal = 18.99;
         <br>
         echo 'Soy un número con decilames: '. $decimal;
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -98,6 +104,7 @@
       <h3>Boolean</h3>
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
         $verdadero = true;
         <br>
         $falso = false;
@@ -105,6 +112,7 @@
         echo Verdadero: ' . $verdadero.'
         <br>
         echo Falso: '.$falso'
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -127,18 +135,20 @@
       <h3>gettype</h3>
       <div class="cod_html">
         <h4>Código</h4>
-        $nombre = 'César';<br>
-        $decimal = 18.99;<br>
-        $numero = 1;<br>
-        $verdadero = true;<br>
-        $falso = false;<br>
-        <br>
+        <code>
+          $nombre = 'César';<br>
+          $decimal = 18.99;<br>
+          $numero = 1;<br>
+          $verdadero = true;<br>
+          $falso = false;<br>
+          <br>
 
-        echo 'La variable&lt;em&gt;$nombre&lt;/em&gt; es de tipo: ' . gettype($nombre) . '&lt;br&gt;';<br>
-        echo 'La variable&lt;em&gt;$decimal&lt;/em&gt; es de tipo: ' . gettype($decimal) .'&lt;br&gt;';<br>
-        echo 'La variable&lt;em&gt;$numero&lt;/em&gt; es de tipo: ' . gettype($numero) . '&lt;br&gt;';<br>
-        echo 'La variable&lt;em&gt;$verdadero&lt;/em&gt; es de tipo: ' . gettype($verdadero) . '&lt;br&gt;';<br>
-        echo 'La variable&lt;em&gt;$falso&lt;/em&gt; es de tipo: ' . gettype($falso) . '&lt;br&gt;';<br>
+          echo 'La variable&lt;em&gt;$nombre&lt;/em&gt; es de tipo: ' . gettype($nombre) . '&lt;br&gt;';<br>
+          echo 'La variable&lt;em&gt;$decimal&lt;/em&gt; es de tipo: ' . gettype($decimal) .'&lt;br&gt;';<br>
+          echo 'La variable&lt;em&gt;$numero&lt;/em&gt; es de tipo: ' . gettype($numero) . '&lt;br&gt;';<br>
+          echo 'La variable&lt;em&gt;$verdadero&lt;/em&gt; es de tipo: ' . gettype($verdadero) . '&lt;br&gt;';<br>
+          echo 'La variable&lt;em&gt;$falso&lt;/em&gt; es de tipo: ' . gettype($falso) . '&lt;br&gt;';<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

@@ -24,46 +24,21 @@
     <h2>Breack / Continue</h2>
 
     <div class="container ejercicio">
+      <h4>break</h4>
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
+          $paises = array('México', 'España', 'Argentina', 'Brasil', 'Fracnia', 'Alemania', 'Italia'); <br>
+          <br>
 
-
-        $dia = 5;<br>
-        <br>
-        switch ($dia) {<br>
-        <br>
-        case 1: <br>
-        echo 'Lunes'; <br>
-        break;<br>
-        <br>
-        case 2:<br>
-        echo 'Martes';<br>
-        break;<br>
-        <br>
-        case 3:<br>
-        echo 'Miércoles';<br>
-        break;<br>
-        <br>
-        case 4:<br>
-        echo 'Jueves';<br>
-        break;<br>
-        <br>
-        case 5:<br>
-        echo 'Viernes';<br>
-        break;<br>
-        <br>
-        case 6:<br>
-        echo 'Sábado';<br>
-        break;<br>
-        <br>
-        case 7:<br>
-        echo 'Domingo';
-        break;<br>
-        <br>
-        default: <br>
-        echo 'Día incorrecto'; <br>
-        }
-
+          foreach($paises as $pais){ <br>
+          echo $pais . '&lt;br&gt;';<br>
+          <br>
+          if($pais==='Argentina'){ <br>
+          break; <br>
+          } <br>
+          } <br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -73,44 +48,59 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-      $dia = 5;
 
-      echo '$dia = ' . $dia . '<br>';
-      switch ($dia) {
-        case 1:
-          echo 'Lunes';
+      $paises = array('México', 'España', 'Argentina', 'Brasil', 'Fracnia', 'Alemania', 'Italia');
+
+      foreach ($paises as $pais) {
+        echo $pais . '<br>';
+
+        if ($pais === 'Argentina') {
           break;
-        case 2:
-          echo 'Martes';
-          break;
-        case 3:
-          echo 'Miércoles';
-          break;
-        case 4:
-          echo 'Jueves';
-          break;
-        case 5:
-          echo 'Viernes';
-          break;
-        case 6:
-          echo 'Sábado';
-          break;
-        case 7:
-          echo 'Domingo';
-          break;
-        default:
-          echo 'Día incorrecto';
+        }
       }
 
+      echo '</div>';
+      ?>
+    </div>
 
 
+    <div class="container ejercicio">
+      <h4>continue</h4>
+      <div class="cod_html">
+        <h4>Código</h4>
+        <code>
+          $paises = array('México', 'España', 'Argentina', 'Brasil', 'Francia', 'Alemania', 'Italia'); <br>
+        </code>
+
+        <p>Países europeos </p>
+        <code>
+          foreach ($paises as $pais) { <br>
+          if ($pais === 'Argentina' or $pais === 'Brasil' or $pais === 'México' ) { <br>
+          continue; <br>
+          } <br>
+          echo $pais . '&lt;br&gt;';<br>
+          }
+
+        </code>
+      </div>
+
+      <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
+      <?php
+
+      echo '
+      <div class="cod_php">
+      <h4>Resultado</h4>';
 
 
+      $paises = array('México', 'España', 'Argentina', 'Brasil', 'Francia', 'Alemania', 'Italia');
 
-
-
-
-
+      echo '<p>Países europeos </p>';
+      foreach ($paises as $pais) {
+        if ($pais === 'Argentina' or $pais === 'Brasil' or $pais === 'México') {
+          continue;
+        }
+        echo $pais . '<br>';
+      }
 
       echo '</div>';
       ?>
@@ -121,10 +111,6 @@
   <footer>
     <button type="button" class="btn-return"><a href="../index.php"><i class="bi bi-caret-left-square-fill"></i> Atrás</a></button>
   </footer>
-
-
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

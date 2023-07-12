@@ -19,7 +19,7 @@
   color: #0d6efd;
 }
 #indice ul li {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   list-style: none;
 }
 #indice ul li i {
@@ -138,6 +138,9 @@ footer button a {
   margin-top: 2.5rem;
   font-weight: 600;
   color: #dc3545;
+}
+#sectionTema .cod_html code {
+  font-size: 1.25rem;
 }
 #sectionTema .cod_php {
   padding: 1.5rem 2rem;

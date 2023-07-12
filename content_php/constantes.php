@@ -28,13 +28,14 @@
 
       <div class="cod_html">
         <h4>Código</h4>
-        define("DAYS_YEAR", 365);<br>
-        define("DAYS_YEAR_BI", 366);<br>
+        <code>
+          define("DAYS_YEAR", 365);<br>
+          define("DAYS_YEAR_BI", 366);<br>
 
-        <br>
-        echo 'El valor de la constante DAYS_YEAR: ' . DAYS_YEAR . '&lt;br&gt;';<br>
-        echo 'El valor de la constante DAYS_YEAR_BI: ' . DAYS_YEAR_BI . '&lt;br&gt;';<br>
-
+          <br>
+          echo 'El valor de la constante DAYS_YEAR: ' . DAYS_YEAR . '&lt;br&gt;';<br>
+          echo 'El valor de la constante DAYS_YEAR_BI: ' . DAYS_YEAR_BI . '&lt;br&gt;';<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

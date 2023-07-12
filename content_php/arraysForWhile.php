@@ -27,15 +27,17 @@
       <h3>For</h3>
       <div class="cod_html">
         <h4>Código</h4>
-        $meses = array(<br>
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
-        );<br>
-        <br>
-        for($i=0; $i < count($meses); $i++){ <br>
-          echo 'Posición: '.$i. ' >>> Mes: '. $meses[$i] . '&lt;br&gt;';<br>;
-          }
+        <code>
+          $meses = array(<br>
+          'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
+          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
+          );<br>
+          <br>
+          for($i=0; $i < count($meses); $i++){ <br>
+            echo 'Posición: '.$i. ' >>> Mes: '. $meses[$i] . '&lt;br&gt;';<br>;
+            }
 
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -61,21 +63,19 @@
       <h3>While</h3>
       <div class="cod_html">
         <h4>Código</h4>
-        $meses = array(<br>
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
-        );<br>
-        <br>
-        $contador = 0;<br>
-        <br>
-        while ($contador < count($meses)) { <br>
-          echo 'Contador: ' . $contador . ' >>> Mes: ' . $meses[$contador] . '&lt;br&gt;';<br>;
-          $contador++;<br>
-          } <br>
-
-
-
-
+        <code>
+          $meses = array(<br>
+          'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
+          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
+          );<br>
+          <br>
+          $contador = 0;<br>
+          <br>
+          while ($contador < count($meses)) { <br>
+            echo 'Contador: ' . $contador . ' >>> Mes: ' . $meses[$contador] . '&lt;br&gt;';<br>;
+            $contador++;<br>
+            } <br>
+        </code>
 
       </div>
 

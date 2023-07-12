@@ -26,15 +26,15 @@
     <div class="container ejercicio">
       <div class="cod_html">
         <h4>Código</h4>
+        <code>
+          $numero = 7; <br>
 
-        $numero = 7; <br>
+          echo 'Número de repeticiones: ' . $numero; <br>
+          <br>
 
-        echo 'Número de repeticiones: ' . $numero; <br>
-        <br>
-
-        for ($i = 0; $i < $numero; $i++) { <br>
-          echo 'Valor de $i: ' . $i . ' --- Numero de repetición ($i+1): ' . ($i + 1) . '&lt;br&gt;';<br> } <br>echo '>>> Repeticiones finalizadas' ;
-
+          for ($i = 0; $i < $numero; $i++) { <br>
+            echo 'Valor de $i: ' . $i . ' --- Numero de repetición ($i+1): ' . ($i + 1) . '&lt;br&gt;';<br> } <br>echo '>>> Repeticiones finalizadas' ;
+        </code>
 
       </div>
 

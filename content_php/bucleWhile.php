@@ -26,19 +26,19 @@
     <div class="container ejercicio">
       <div class="cod_html">
         <h4>Código</h4>
-
-        $numero = 10;<br>
-        <br>
-        echo 'La cuenta atrás: ' . $numero . ' >>> 0 &lt;br&gt;';<br>
-        <br>
-        while ($numero >= 0) { <br>
-        echo $numero; <br>
-        $numero--;<br>
-        echo '&lt;br&gt;';<br>
-        } <br>
-        <br>
-        echo '>>> Cuenta atrás finalizada';
-
+        <code>
+          $numero = 10;<br>
+          <br>
+          echo 'La cuenta atrás: ' . $numero . ' >>> 0 &lt;br&gt;';<br>
+          <br>
+          while ($numero >= 0) { <br>
+          echo $numero; <br>
+          $numero--;<br>
+          echo '&lt;br&gt;';<br>
+          } <br>
+          <br>
+          echo '>>> Cuenta atrás finalizada';
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

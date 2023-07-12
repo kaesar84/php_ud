@@ -27,13 +27,13 @@
       <p>Mínimo se realizará 1 vez</p>
       <div class="cod_html">
         <h4>Código</h4>
-
-        $numero = 10;<br>
-        <br>
-        do { <br>
-        echo 'Condición forzada'; <br>
-        } while ($numero > 100); <br>
-
+        <code>
+          $numero = 10;<br>
+          <br>
+          do { <br>
+          echo 'Condición forzada'; <br>
+          } while ($numero > 100); <br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

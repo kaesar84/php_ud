@@ -27,43 +27,43 @@
       <div class="cod_html">
         <h4>Código</h4>
 
-
-        $dia = 5;<br>
-        <br>
-        switch ($dia) {<br>
-        <br>
-        case 1: <br>
-        echo 'Lunes'; <br>
-        break;<br>
-        <br>
-        case 2:<br>
-        echo 'Martes';<br>
-        break;<br>
-        <br>
-        case 3:<br>
-        echo 'Miércoles';<br>
-        break;<br>
-        <br>
-        case 4:<br>
-        echo 'Jueves';<br>
-        break;<br>
-        <br>
-        case 5:<br>
-        echo 'Viernes';<br>
-        break;<br>
-        <br>
-        case 6:<br>
-        echo 'Sábado';<br>
-        break;<br>
-        <br>
-        case 7:<br>
-        echo 'Domingo';
-        break;<br>
-        <br>
-        default: <br>
-        echo 'Día incorrecto'; <br>
-        }
-
+        <code>
+          $dia = 5;<br>
+          <br>
+          switch ($dia) {<br>
+          <br>
+          case 1: <br>
+          echo 'Lunes'; <br>
+          break;<br>
+          <br>
+          case 2:<br>
+          echo 'Martes';<br>
+          break;<br>
+          <br>
+          case 3:<br>
+          echo 'Miércoles';<br>
+          break;<br>
+          <br>
+          case 4:<br>
+          echo 'Jueves';<br>
+          break;<br>
+          <br>
+          case 5:<br>
+          echo 'Viernes';<br>
+          break;<br>
+          <br>
+          case 6:<br>
+          echo 'Sábado';<br>
+          break;<br>
+          <br>
+          case 7:<br>
+          echo 'Domingo';
+          break;<br>
+          <br>
+          default: <br>
+          echo 'Día incorrecto'; <br>
+          }
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

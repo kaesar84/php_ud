@@ -27,6 +27,7 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
+        <code>
         $meses = array(<br>
         'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
         'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
@@ -36,7 +37,7 @@
         foreach ($meses as $mes) {<br>
         echo $mes . '&lt;br&gt;';<br>
         };
-
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->

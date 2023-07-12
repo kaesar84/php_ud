@@ -28,29 +28,36 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Declaración</p>
-        $meses = array(<br>
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
-        );<br>
+        <code>
+          $meses = array(<br>
+          'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',<br>
+          'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'<br>
+          );<br>
+        </code>
 
         <p>- Orden según índice inicial</p>
-        foreach ($meses as $mes) {<br>
-        echo $mes . '&lt;br&gt;';<br>
-        };
+        <code>
+          foreach ($meses as $mes) {<br>
+          echo $mes . '&lt;br&gt;';<br>
+          };
+        </code>
 
         <p>- sort() >>> Ordenar ascendente</p>
-        sort($meses);<br>
-        foreach ($meses as $mes) {<br>
-        echo $mes . '&lt;br&gt;';<br>
-        };
+        <code>
+          sort($meses);<br>
+          foreach ($meses as $mes) {<br>
+          echo $mes . '&lt;br&gt;';<br>
+          };
+        </code>
 
         <p>- rsort() >>> Ordenar descendente</p>
-        rsort($meses);<br>
-        foreach ($meses as $mes) {<br>
-        echo $mes . '&lt;br&gt;';<br>
-        };
+        <code>
+          rsort($meses);<br>
+          foreach ($meses as $mes) {<br>
+          echo $mes . '&lt;br&gt;';<br>
+          };
 
-
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
@@ -90,27 +97,29 @@
       <div class="cod_html">
         <h4>Código</h4>
         <p>- Nuevo Array a partir del original</p>
+        <code>
+          $numeros = array(<br>
+          37, 12, 8, 99, 58, 75, 5, 6, 88, 69 <br>
+          ); <br>
 
-        $numeros = array(<br>
-        37, 12, 8, 99, 58, 75, 5, 6, 88, 69 <br>
-        ); <br>
-
-        $numerosOrdenados = $numeros;<br>
+          $numerosOrdenados = $numeros;<br>
+        </code>
 
         <p>-Aplicamos métodos sobre copia</p>
-        sort($numerosOrdenados);<br>
-        <br>
-        echo '$numeros >>>';<br>
-        foreach ($numeros as $numero) {<br>
-        echo $numero . ' ';<br>
-        };<br>
+        <code>
+          sort($numerosOrdenados);<br>
+          <br>
+          echo '$numeros >>>';<br>
+          foreach ($numeros as $numero) {<br>
+          echo $numero . ' ';<br>
+          };<br>
 
-        <br>
-        echo '$numerosOrdenados >>>';<br>
-        foreach ($numerosOrdenados as $numeroOrdenado) {<br>
-        echo $numeroOrdenado . ' ';<br>
-        };<br>
-
+          <br>
+          echo '$numerosOrdenados >>>';<br>
+          foreach ($numerosOrdenados as $numeroOrdenado) {<br>
+          echo $numeroOrdenado . ' ';<br>
+          };<br>
+        </code>
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
