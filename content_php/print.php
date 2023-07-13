@@ -38,22 +38,22 @@
 
           <br>
 
-          var_dump($texto); <br>
+          print_r($texto); <br>
           echo '&lt;br&gt;';<br>
-          var_dump($numero); <br>
+          print_r($numero); <br>
           echo '&lt;br&gt;';<br>
-          var_dump($numero2); <br>
+          print_r($numero2); <br>
           echo '&lt;br&gt;';<br>
           echo ' '&lt;pre&gt;';<br>
-          var_dump($array); <br>
+          print_r($array); <br>
           echo ' '&lt;/pre&gt;';<br>
           echo '<br>';
           echo ' '&lt;pre&gt;';<br>
 
-          var_dump($arrayAsociativo); <br>
+          print_r($arrayAsociativo); <br>
           echo ' '&lt;/pre&gt;';<br>
           echo '&lt;br&gt;';<br>
-          var_dump($booleano);
+          print_r($booleano);
 
         </code>
 
@@ -74,21 +74,21 @@
       $booleano = true;
 
 
-      var_dump($texto);
+      print_r($texto);
       echo '<br><br>';
-      var_dump($numero);
+      print_r($numero);
       echo '<br><br>';
-      var_dump($numero2);
+      print_r($numero2);
       echo '<br><br>';
       echo '<pre>';
-      var_dump($array);
+      print_r($array);
       echo '</pre>';
       echo '<br>';
       echo '<pre>';
-      var_dump($arrayAsociativo);
+      print_r($arrayAsociativo);
       echo '</pre>';
-      echo '<br><br>';
-      var_dump($booleano);
+      echo '<br>';
+      print_r($booleano);
 
 
 
