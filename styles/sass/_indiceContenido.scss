@@ -1,26 +1,32 @@
 @use "mixins";
 @use "variables";
 
-.cabeceraTitulo{
-  padding: 3rem 8rem;
+.cabeceraTitulo {
+  padding: 3rem 5rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 
-  h2{
-font-size: 2.8rem;
-color: variables.$primary;
+  h2 {
+    font-size: 2.8rem;
+    color: variables.$primary;
   }
 }
 
-.accordion{
+.accordion {
   padding: 0rem 10rem 5rem 10rem;
-  h2{
+  h2 {
     color: variables.$primary;
   }
+
+  .accordion-button {
+    background-color: variables.$gray-200;
+    border-color: variables.$gray-800;
+  }
+
   ul {
     li {
-      font-size: 1.75rem;
+      font-size: 1.2rem;
       list-style: none;
       i {
         color: variables.$primary;
@@ -39,22 +45,6 @@ color: variables.$primary;
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
 // INDICE

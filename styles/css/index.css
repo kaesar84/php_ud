@@ -1,5 +1,5 @@
 .cabeceraTitulo {
-  padding: 3rem 8rem;
+  padding: 3rem 5rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -15,8 +15,12 @@
 .accordion h2 {
   color: #0d6efd;
 }
+.accordion .accordion-button {
+  background-color: #e9ecef;
+  border-color: #343a40;
+}
 .accordion ul li {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   list-style: none;
 }
 .accordion ul li i {

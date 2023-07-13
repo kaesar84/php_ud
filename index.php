@@ -202,6 +202,31 @@
                             <a href="content_php/funcionesMates.php">Funciones útiles matemáticas </a>
                         </li>
 
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 35 -->
+                            <a href="content_php/scope.php">Scope </a>
+                        </li>
+
+                        
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 36 -->
+                            <a href="content_php/include-require.php">Include - require </a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 37 -->
+                            <a href="content_php/dieFuncion.php">Función die() </a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 38 -->
+                            <a href="content_php/tipoEscalar.php">Declaración de tipo escalar</a>
+                        </li>
+
                     </ul>
 
 
