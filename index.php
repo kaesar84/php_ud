@@ -27,6 +27,7 @@
     <div class="accordion" id="accordionExample">
 
         <div class="accordion-item">
+           <!--  Fundamentos -->
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h2> Fundamentos de PHP</h2>
@@ -39,204 +40,204 @@
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 6 -->
-                            <a href="content_php/variables.php">Variables</a>
+                            <a href="content_php/fundamentos/variables.php">Variables</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 7 -->
-                            <a href="content_php/constantes.php">Constantes</a>
+                            <a href="content_php/fundamentos/constantes.php">Constantes</a>
 
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 8 -->
-                            <a href="content_php/arrays.php">Arrays Indexados</a>
+                            <a href="content_php/fundamentos/arrays.php">Arrays Indexados</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 9 -->
-                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
+                            <a href="content_php/fundamentos/arraysAsociativos.php">Arrays Asociativos</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 10 -->
-                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
+                            <a href="content_php/fundamentos/arraysMultidimensionales.php">Arrays Multidimensionales</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 11 -->
-                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
+                            <a href="content_php/fundamentos/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 22 -->
-                            <a href="content_php/arraysForWhile.php">Recorriendo un array - For / While</a>
+                            <a href="content_php/fundamentos/arraysForWhile.php">Recorriendo un array - For / While</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 12 -->
-                            <a href="content_php/arraysForeach.php">Recorriendo un Array - For each</a>
+                            <a href="content_php/fundamentos/arraysForeach.php">Recorriendo un Array - For each</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 13 -->
-                            <a href="content_php/arraysOrdenar.php">Ordenar Arrays</a>
+                            <a href="content_php/fundamentos/arraysOrdenar.php">Ordenar Arrays</a>
                         </li>
 
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 14 -->
-                            <a href="content_php/condicionales-if.php">Condicionales - IF</a>
+                            <a href="content_php/fundamentos/condicionales-if.php">Condicionales - IF</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 15 -->
-                            <a href="content_php/condicionales-ifelse.php">Condicionales - IF - ELSE IF</a>
+                            <a href="content_php/fundamentos/condicionales-ifelse.php">Condicionales - IF - ELSE IF</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 16 - 17 -->
-                            <a href="content_php/operadores.php">Operadores</a>
+                            <a href="content_php/fundamentos/operadores.php">Operadores</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 18 -->
-                            <a href="content_php/switch.php">Switch</a>
+                            <a href="content_php/fundamentos/switch.php">Switch</a>
                         </li>
 
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 19 -->
-                            <a href="content_php/operadorTernario.php">Operador ternario</a>
+                            <a href="content_php/fundamentos/operadorTernario.php">Operador ternario</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 20 -->
-                            <a href="content_php/bucleFor.php">Bucle FOR</a>
+                            <a href="content_php/fundamentos/bucleFor.php">Bucle FOR</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 21 -->
-                            <a href="content_php/bucleWhile.php">Bucle WHILE</a>
+                            <a href="content_php/fundamentos/bucleWhile.php">Bucle WHILE</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 23 -->
-                            <a href="content_php/bucleDoWhile.php">Bucle DO WHILE</a>
+                            <a href="content_php/fundamentos/bucleDoWhile.php">Bucle DO WHILE</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 24 -->
-                            <a href="content_php/bucleForEach.php">Bucle FOR EACH</a>
+                            <a href="content_php/fundamentos/bucleForEach.php">Bucle FOR EACH</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 25 -->
-                            <a href="content_php/breackContinue.php">Break - Continue</a>
+                            <a href="content_php/fundamentos/breackContinue.php">Break - Continue</a>
                         </li>
 
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 26 -->
-                            <a href="content_php/varDump.php">var_dump()</a>
+                            <a href="content_php/fundamentos/varDump.php">var_dump()</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 27 -->
-                            <a href="content_php/print.php">print()</a>
+                            <a href="content_php/fundamentos/print.php">print()</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 27 -->
-                            <a href="content_php/funciones.php">Funciones</a>
+                            <a href="content_php/fundamentos/funciones.php">Funciones</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 28-29 -->
-                            <a href="content_php/funcionesParam.php">Funciones con parámetros</a>
+                            <a href="content_php/fundamentos/funcionesParam.php">Funciones con parámetros</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 30-31 -->
-                            <a href="content_php/funcionesParamEjemplos.php">Funciones con parámetros - Ejemplos</a>
+                            <a href="content_php/fundamentos/funcionesParamEjemplos.php">Funciones con parámetros - Ejemplos</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 32 -->
-                            <a href="content_php/funcionesCadenasTexto.php">Funciones útiles para cadenas de texto </a>
+                            <a href="content_php/fundamentos/funcionesCadenasTexto.php">Funciones útiles para cadenas de texto </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 33 -->
-                            <a href="content_php/funcionesArrays.php">Funciones útiles para Arrays </a>
+                            <a href="content_php/fundamentos/funcionesArrays.php">Funciones útiles para Arrays </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 34 -->
-                            <a href="content_php/funcionesMates.php">Funciones útiles matemáticas </a>
+                            <a href="content_php/fundamentos/funcionesMates.php">Funciones útiles matemáticas </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 35 -->
-                            <a href="content_php/scope.php">Scope </a>
+                            <a href="content_php/fundamentos/scope.php">Scope </a>
                         </li>
 
                         
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 36 -->
-                            <a href="content_php/include-require.php">Include - require </a>
+                            <a href="content_php/fundamentos/include-require.php">Include - require </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 37 -->
-                            <a href="content_php/dieFuncion.php">die() </a>
+                            <a href="content_php/fundamentos/dieFuncion.php">die() </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 38 -->
-                            <a href="content_php/tipoEscalar.php">Declaración de tipo escalar</a>
+                            <a href="content_php/fundamentos/tipoEscalar.php">Declaración de tipo escalar</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 39 -->
-                            <a href="content_php/tipoDevolucion.php">Declaración de tipo devolución</a>
+                            <a href="content_php/fundamentos/tipoDevolucion.php">Declaración de tipo devolución</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 40 -->
-                            <a href="content_php/operadorNaveEspacial.php">Operador nave espacial</a>
+                            <a href="content_php/fundamentos/operadorNaveEspacial.php">Operador nave espacial</a>
                         </li>
 
                     </ul>
@@ -245,6 +246,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="accordion-item">
             <h2 class="accordion-header">
@@ -257,40 +259,29 @@
                 <ul>
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 6 -->
-                            <a href="content_php/variables.php">Variables</a>
+                            <!--  video 41 -->
+                            <a href="content_php/formularios/formulario.php">Formulario</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 7 -->
-                            <a href="content_php/constantes.php">Constantes</a>
-
+                            <!--  video 42 -->
+                            <a href="content_php/formularios/formularioPost.php">Envío de datos desde un formulario >>> POST </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 8 -->
-                            <a href="content_php/arrays.php">Arrays Indexados</a>
+                            <!--  video 43 -->
+                            <a href="content_php/formularios/envioDatos.php">Envío de datos desde un formulario >>> GET </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 9 -->
-                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
+                            <!--  video 44 -->
+                            <a href="content_php/formularios/envioDatos.php">Envíando datos a la misma página </a>
                         </li>
 
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 10 -->
-                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
-                        </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 11 -->
-                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
-                        </li>
+                       
 
                     </ul>   
 
