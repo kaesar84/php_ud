@@ -157,13 +157,13 @@
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 26 -->
-                            <a href="content_php/varDump.php">Función var_dump()</a>
+                            <a href="content_php/varDump.php">var_dump()</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 27 -->
-                            <a href="content_php/print.php">Función print()</a>
+                            <a href="content_php/print.php">print()</a>
                         </li>
 
                         <li>
@@ -218,13 +218,25 @@
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 37 -->
-                            <a href="content_php/dieFuncion.php">Función die() </a>
+                            <a href="content_php/dieFuncion.php">die() </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 38 -->
                             <a href="content_php/tipoEscalar.php">Declaración de tipo escalar</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 39 -->
+                            <a href="content_php/tipoDevolucion.php">Declaración de tipo devolución</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 40 -->
+                            <a href="content_php/operadorNaveEspacial.php">Operador nave espacial</a>
                         </li>
 
                     </ul>
@@ -242,7 +254,48 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/variables.php">Variables</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 7 -->
+                            <a href="content_php/constantes.php">Constantes</a>
+
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 8 -->
+                            <a href="content_php/arrays.php">Arrays Indexados</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 9 -->
+                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 10 -->
+                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 11 -->
+                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
+                        </li>
+
+                    </ul>   
+
+
+
                 </div>
             </div>
         </div>
@@ -256,7 +309,45 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/variables.php">Variables</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 7 -->
+                            <a href="content_php/constantes.php">Constantes</a>
+
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 8 -->
+                            <a href="content_php/arrays.php">Arrays Indexados</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 9 -->
+                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 10 -->
+                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 11 -->
+                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </div>
@@ -269,8 +360,45 @@
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
+                <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/variables.php">Variables</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 7 -->
+                            <a href="content_php/constantes.php">Constantes</a>
+
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 8 -->
+                            <a href="content_php/arrays.php">Arrays Indexados</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 9 -->
+                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 10 -->
+                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 11 -->
+                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
+                        </li>
+
+                    </ul>
             </div>
         </div>
 

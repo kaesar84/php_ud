@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Declaraciones de tipo escalar</title>
+  <title>Declaraciones de tipo devolución</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../styles/css/index.css">
@@ -21,38 +21,35 @@
   ?>
 
   <section id="sectionTema">
-    <h2>Declaraciones de tipo escalar</h2>
+    <h2>Declaraciones de tipo devolución</h2>
 
     <div class="container ejercicio">
-      <p><a href="https://www.php.net/manual/es/migration70.new-features.php#:~:text=Las%20declaraciones%20de%20tipo%20escalar,%2C%20y%20booleanos%20(%20bool%20).">Declaraciones de tipo escalar</a></p>
+      <p><a href="https://www.php.net/manual/es/functions.returning-values.php">Declaraciones de tipo devolución</a></p>
       <div class="cod_html">
         <h4>Código</h4>
 
         <p>Se incorpora tipo de dato al parámetro para que el error indique tipo de dato erroneo</p>
         <code>
-          function areaCuadrado(int $lado){ <br>
-          return pow($lado, 2); <br>
+          function obtenerAltura(int $centimetros){ <br>
+          return pow($centimetros, 2); <br>
           } <br>
         </code>
 
         <p>Aportamos como parámetro tipo de dato correcto</p>
         <code>
-          areaCuadrado(5) <br>
+          obtenerAltura(180) <br>
         </code>
-
 
         <p>String convertible en número <br>
           declare(strict_types=1) >>> Forzar que sea estricto (no funciona conversión)</p>
         <code>
-          areaCuadrado('3');
+          obtenerAltura('192'); <br>
         </code>
-
 
         <p>Aportamos como parámetro un string para forzar el error</p>
         <code>
-          areaCuadrado('Fuerza el error'); <br>
+          obtenerAltura('Fuerza el error'); <br>
         </code>
-
 
       </div>
 
@@ -63,24 +60,24 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-      echo '<p>Se incorpora tipo de dato al parámetro para que el error indique tipo de dato erroneo</p>';
+      echo '<p>Permite especificar el tipo de dato del return</p>';
 
-      function areaCuadrado(int $lado)
+      function obtenerAltura($centimetros): int
       {
-        return pow($lado, 2);
+        return $centimetros;
       }
 
       echo '<p>Aportamos como parámetro tipo de dato correcto</p>';
-      echo 'Resultado: ' . areaCuadrado(5) . '<br>';
+      echo 'Resultado: ' . obtenerAltura(180) . '<br>';
 
       echo '<p>String convertible en número <br>
       declare(strict_types=1) >>> Forzar que sea estricto (no funciona conversión)</p>';
-      echo 'Resultado: ' .  areaCuadrado('3');
+      echo 'Resultado: ' .  obtenerAltura('192');
 
 
       echo '<p>String para forzar el error, no puede convertirse</p>';
-      /*  echo areaCuadrado('Fuerza el error'); */
-      echo 'Fatal error: Uncaught TypeError: areaCuadrado(): Argument #1 ($lado) must be of type int, string given, called in C:\xampp\htdocs\php_ud\content_php\tipoEscalar.php on line 68 and defined in C:\xampp\htdocs\php_ud\content_php\tipoEscalar.php:54 Stack trace: #0 C:\xampp\htdocs\php_ud\content_php\tipoEscalar.php(68): areaCuadrado("Fuerza el error") #1 {main} thrown in C:\xampp\htdocs\php_ud\content_php\tipoEscalar.php on line 54';
+      /* echo areaCuadrado('Fuerza el error'); */
+      echo "Fatal error: Uncaught Error: Call to undefined function areaCuadrado() in C:\xampp\htdocs\php_ud\content_php\tipoDevolucion.php:68 Stack trace: #0 {main} thrown in C:\xampp\htdocs\php_ud\content_php\tipoDevolucion.php on line 68";
 
       echo '</div>';
       ?>

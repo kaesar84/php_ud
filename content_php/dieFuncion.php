@@ -28,22 +28,22 @@
       <div class="cod_html">
         <h4>Código</h4>
 
-        
+
         <code>
-        $cadena = 'Contenido previo al die()'; <br>
-      echo $cadena; <br>
-      <br>
-      die(); <br>
-      <br>
-      ** No se ejecuta <br>
-      $cadena2 = 'Contenido posterior al die()'; <br>
-      echo $cadena2; <br>
-         
+          $cadena = 'Contenido previo al die()'; <br>
+          echo $cadena; <br>
+          <br>
+          die(); <br>
+          <br>
+          ** No se ejecuta <br>
+          $cadena2 = 'Contenido posterior al die()'; <br>
+          echo $cadena2; <br>
+
 
         </code>
         <br>
 
-        
+
 
       </div>
 
@@ -56,25 +56,26 @@
 
       $cadena = 'Contenido previo al die()';
       echo $cadena;
-      die();
-      $cadena2 = 'Contenido posterior al die()';
-      echo $cadena2;
 
       echo '</div>';
+
+
+      echo '</div>';
+
+      echo '</section>';
+
+
+      echo ' <footer>
+      <button type="button" class="btn-return"><a href="../index.php"><i class="bi bi-caret-left-square-fill"></i> Atrás</a></button>
+    </footer>';
       ?>
-    </div>
 
-  </section>
-
-  <footer>
-    <button type="button" class="btn-return"><a href="../index.php"><i class="bi bi-caret-left-square-fill"></i> Atrás</a></button>
-  </footer>
+      <!--      die();
+      $cadena2 = 'Contenido posterior al die()';
+      echo $cadena2; -->
 
 
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
