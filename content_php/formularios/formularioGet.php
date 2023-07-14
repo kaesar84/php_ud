@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Método POST</title>
+  <title>Método GET</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../../styles/css/index.css">
@@ -21,18 +21,18 @@
   ?>
 
   <section id="sectionTema">
-    <h2>Método POST</h2>
+    <h2>Método GET</h2>
 
 
     <div class="container ejercicio">
-      <p>Permite enviar archivos - No modifica la URL - Se utiliza para info importante</p>
+      <p>Solo para información NO sensible</p>
 
       <div class="cod_html">
         <h4>Formulario</h4>
 
 
-        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" name="" id="" class="formBase"><!--  Actua sobre el mismo documento -->
-          <!--  <form action="formularioPostDatos.php" method="post" name="" id="" class="formBase">  Actua sobre archivo externo-->
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="get" name="" id="" class="formBase"> <!--  Actua sobre el mismo documento -->
+          <!-- <form action="formularioGetDatos.php" method="get" name="" id="" class="formBase"> --> <!--   Actua sobre archivo externo-->
 
 
           <div class="input-group mb-3">
@@ -90,18 +90,20 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-      if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+      if ($_GET) {
 
-        echo '<p>$_POST - Genera un array asociativo con los datos</p>';
+        echo '<p>$_GET - Genera un array asociativo con los datos</p>';
         echo '<pre>';
-        print_r($_POST);
+        print_r($_GET);
         echo '</pre>';
 
 
-        $usuario = $_POST['usuario'];
-        $tipoPersona = $_POST['tipoPersona'];
-        $horario = $_POST['horario'];
-        $aceptaTerminos = $_POST['input-terminos'];
+        $usuario = $_GET['usuario'];
+        $tipoPersona = $_GET['tipoPersona'];
+        $horario = $_GET['horario'];
+        $aceptaTerminos = $_GET['input-terminos'];
+
+
 
 
         echo '<p>Datos Capturados</p>';
@@ -109,6 +111,10 @@
         echo 'tipoPersona >>>' .  $tipoPersona . '<br>';
         echo 'horario >>>' .  $horario . '<br>';
         echo 'aceptaTerminos >>>' .  $aceptaTerminos . '<br>';
+
+        echo '<p>Ejemplo de url</p>';
+
+        echo 'http://localhost/PHP_UD/content_php/formularios/formularioGet.php?usuario=C%C3%A9sar&tipoPersona=trabajador&horario=tarde&input-terminos=true';
 
 
         echo '<p>Uso de variables</p>';

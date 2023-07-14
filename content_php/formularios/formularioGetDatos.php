@@ -2,20 +2,20 @@
 
 
 // SI no hay post redirecciona, evitas el acceso, solo se accede a través del formulario
-if (!$_POST) {
-    header('Location: http://localhost/PHP_UD/content_php/formularios/formularioPost.php');
+if (!$_GET) {
+    header('Location: http://localhost/PHP_UD/content_php/formularios/formularioGet.php');
 }
 
-echo '<p>$_POST - Genera un array asociativo con los datos</p>';
+echo '<p>$_GET - Genera un array asociativo con los datos</p>';
 echo '<pre>';
-print_r($_POST);
+print_r($_GET);
 echo '</pre>';
 
 
-$usuario = $_POST['usuario'];
-$tipoPersona = $_POST['tipoPersona'];
-$horario = $_POST['horario'];
-$aceptaTerminos = $_POST['input-terminos'];
+$usuario = $_GET['usuario'];
+$tipoPersona = $_GET['tipoPersona'];
+$horario = $_GET['horario'];
+$aceptaTerminos = $_GET['input-terminos'];
 
 
 echo '<p>Datos Capturados</p>';

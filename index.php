@@ -272,13 +272,13 @@
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 43 -->
-                            <a href="content_php/formularios/envioDatos.php">Envío de datos desde un formulario >>> GET </a>
+                            <a href="content_php/formularios/formularioGet.php">Envío de datos desde un formulario >>> GET </a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 44 -->
-                            <a href="content_php/formularios/envioDatos.php">Envíando datos a la misma página </a>
+                            <!--  video 45 -->
+                            <a href="content_php/formularios/formularioVerificaEnvio.php">Comprobando si un formulario ha sido enviado</a>
                         </li>
 
                        
