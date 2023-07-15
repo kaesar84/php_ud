@@ -281,6 +281,11 @@
                             <a href="content_php/formularios/formularioVerificaEnvio.php">Comprobando si un formulario ha sido enviado</a>
                         </li>
 
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 46 -->
+                            <a href="content_php/formularios/validaciones.php">Validando un formulario</a>
+                        </li>
                        
 
                     </ul>   

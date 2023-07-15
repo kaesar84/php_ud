@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Comprobando si un formulario ha sido enviado</title>
+  <title>Validaciones</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../../styles/css/index.css">
@@ -16,22 +16,24 @@
 
   <?php
   echo '<header>
-   <img src="../../media/logophpclaro.png" alt="">
+   <img src="../../media/logophpclaro.png" alt=""> 
    </header>'
   ?>
 
   <section id="sectionTema">
-    <h2>Comprobando si un formulario ha sido enviado</h2>
+    <h2>Validaciones</h2>
+    <a href="https://www.php.net/manual/es/filter.filters.php">Filtros</a>
 
 
     <div class="container ejercicio">
+
 
       <div class="cod_html">
         <h4>Formulario</h4>
 
 
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" name="" id="" class="formBase"><!--  Actua sobre el mismo documento -->
-          <!--  <form action="formularioVerificaEnvioDatos.php" method="post" name="" id="" class="formBase"> --> <!--   Actua sobre archivo externo-->
+          <!--  <form action="formularioPostDatos.php" method="post" name="" id="" class="formBase">  Actua sobre archivo externo-->
 
 
           <div class="input-group mb-3">
@@ -73,27 +75,12 @@
 
 
           <div class="inputSubmit">
-            <button type="submit" class="btn btn-secondary" name="submit-form1" value="true">Enviar</button>
+            <button type="submit" class="btn btn-secondary" name="submit1" value="true">Enviar</button>
           </div>
 
         </form>
 
         <br>
-
-        <p>Para 1 formulario >>> NO identifica cual hace submit</p>
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
-        echo 'Se enviaron por POST'; <br>
-        }else{ <br>
-        echo 'Se enviaron por GET';<br>
-        } <br>
-
-        <p> Para +1, ya que lo vinculamos al name del submit</p>
-        if(isset($_POST['submit-form1'])){ <br>
-        echo 'Se han enviado los datos correctamente'; <br>
-        echo echo '&lt;pre&gt;'; <br>
-        print_r($_POST); <br>
-        echo echo '&lt;/pre&gt;';
-        } <br>
 
       </div>
 
@@ -104,20 +91,60 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-      // Para un formulario porque no identifica cual envia la documentación
-      /* if($_SERVER['REQUEST_METHOD'] == 'POST'){
-      echo 'Se enviaron por POST<br>';
-      }else{
-      echo 'Se enviaron por GET';
-      } */
+      if (isset($_POST['submit1'])) {
+        $usuario = $_POST['usuario'];
+        $tipoPersona = $_POST['tipoPersona'];
+        $horario = $_POST['horario'];
+        $aceptaTerminos = $_POST['input-terminos'];
+        $submit1 = $_POST['submit1'];
 
-      // Para más de uno, ya que lo vinculamos al name del submit
-      if (isset($_POST['submit-form1'])) {
-        echo 'Se han enviado los datos correctamente<br>';
+        echo '<p>Validaciones</p>';
+        echo '- Impedir vacío y parametros especiales<br>';
+        echo '<br>';
+
+        if(!empty($usuario)){
+          /* $usuario = trim($usuario); // Elimina espacios en inicio y final
+          $usuario = htmlspecialchars($usuario); // Convierte catacteres especiales en entidades HTML, no ejecuta el código
+          $usuario = stripslashes($usuario); // Elimina / */
+
+
+          $usuario= filter_var($usuario, FILTER_SANITIZE_ENCODED);
+
+          echo 'usuario >>> ' .  $usuario . '<br>';
+
+        }
+
+
+
+
+
+
+
+
+       /*  echo '<p>Datos capturados<p>';
         echo '<pre>';
         print_r($_POST);
-        echo '</pre>';
+        echo '</pre>'; */
+
+
+        echo '<p>Datos Capturados</p>';
+       
+        /* echo 'tipoPersona >>>' .  $tipoPersona . '<br>';
+        echo 'horario >>>' .  $horario . '<br>';
+        echo 'aceptaTerminos >>>' .  $aceptaTerminos . '<br>';
+        echo 'submit1 >>>' .  $submit1 . '<br>'; */
+
+       
+
+
+
+
+
+
       }
+
+
+
 
       echo '</div>';
       ?>
@@ -128,6 +155,8 @@
   <footer>
     <button type="button" class="btn-return"><a href="../../index.php"><i class="bi bi-caret-left-square-fill"></i> Atrás</a></button>
   </footer>
+
+
 
 
 
