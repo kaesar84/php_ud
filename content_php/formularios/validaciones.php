@@ -91,6 +91,17 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
+
+
+      function sanitizarString($string)
+      {
+        $string = strip_tags($string);  // Elimina etiquetas html
+        $string = trim($string); // Elimina espacios en inicio y final
+        $string = htmlspecialchars($string); // Convierte catacteres especiales en entidades HTML, no ejecuta el código
+        $string = stripslashes($string);
+      }
+
+
       if (isset($_POST['submit1'])) {
         $usuario = $_POST['usuario'];
         $tipoPersona = $_POST['tipoPersona'];
@@ -102,16 +113,13 @@
         echo '- Impedir vacío y parametros especiales<br>';
         echo '<br>';
 
-        if(!empty($usuario)){
-          /* $usuario = trim($usuario); // Elimina espacios en inicio y final
-          $usuario = htmlspecialchars($usuario); // Convierte catacteres especiales en entidades HTML, no ejecuta el código
-          $usuario = stripslashes($usuario); // Elimina / */
+        if (!empty($usuario)) {
+          sanitizarString($usuario);
 
 
-          $usuario= filter_var($usuario, FILTER_SANITIZE_ENCODED);
+          /* $usuario= filter_var($usuario, $filter = FILTER_SANITIZE_SPECIAL_CHARS); */
 
           echo 'usuario >>> ' .  $usuario . '<br>';
-
         }
 
 
@@ -121,26 +129,18 @@
 
 
 
-       /*  echo '<p>Datos capturados<p>';
+        /*  echo '<p>Datos capturados<p>';
         echo '<pre>';
         print_r($_POST);
         echo '</pre>'; */
 
 
         echo '<p>Datos Capturados</p>';
-       
+
         /* echo 'tipoPersona >>>' .  $tipoPersona . '<br>';
         echo 'horario >>>' .  $horario . '<br>';
         echo 'aceptaTerminos >>>' .  $aceptaTerminos . '<br>';
         echo 'submit1 >>>' .  $submit1 . '<br>'; */
-
-       
-
-
-
-
-
-
       }
 
 
