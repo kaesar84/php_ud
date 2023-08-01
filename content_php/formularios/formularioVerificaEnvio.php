@@ -81,7 +81,7 @@
         <br>
 
         <p>Para 1 formulario >>> NO identifica cual hace submit</p>
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){<br>
         echo 'Se enviaron por POST'; <br>
         }else{ <br>
         echo 'Se enviaron por GET';<br>

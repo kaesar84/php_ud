@@ -20,6 +20,9 @@ header {
     font-size: 4rem;
     color: variables.$info;
     font-weight: 600;
+    @media (max-width: 480px) {
+      font-size: 3rem;
+    }
   }
 
   img {
@@ -50,14 +53,23 @@ footer {
   flex-direction: column;
   h2 {
     align-self: flex-start;
+    @media (max-width: 480px) {
+      font-size: 3rem;
+    }
   }
 
   .cod_html {
     @include mixins.elementosCodigo();
+    @media (max-width: 480px) {
+      font-size: 0.7rem;
+    }
   }
 
   .cod_php {
     @include mixins.elementosResultado();
+    @media (max-width: 480px) {
+      font-size: 0.7rem;
+    }
   }
 
   @media (max-width: 480px) {
@@ -65,6 +77,4 @@ footer {
     padding: 0;
     margin: 1rem;
   }
-  
 }
-
