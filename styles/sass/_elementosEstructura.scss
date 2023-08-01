@@ -60,6 +60,11 @@ footer {
     @include mixins.elementosResultado();
   }
 
+  @media (max-width: 480px) {
+    width: 90vw; /* Reducir el padding para pantallas pequeñas */
+    padding: 0;
+    margin: 1rem;
+  }
   
 }
 
