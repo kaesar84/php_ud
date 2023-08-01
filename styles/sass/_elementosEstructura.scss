@@ -61,14 +61,14 @@ footer {
   .cod_html {
     @include mixins.elementosCodigo();
     @media (max-width: 480px) {
-      font-size: 0.7rem;
+      font-size: 1rem;
     }
   }
 
   .cod_php {
     @include mixins.elementosResultado();
     @media (max-width: 480px) {
-      font-size: 0.7rem;
+      font-size: 1rem;
     }
   }
 

@@ -228,7 +228,7 @@ footer button a {
 }
 @media (max-width: 480px) {
   #sectionTema .cod_html {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 #sectionTema .cod_php {
@@ -248,7 +248,7 @@ footer button a {
 }
 @media (max-width: 480px) {
   #sectionTema .cod_php {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 480px) {
