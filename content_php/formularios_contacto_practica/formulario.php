@@ -69,61 +69,12 @@
           </div>
 
 
-
-
-
         </form>
-
-
-
-
-        <code>
-
-
-
-        </code>
-        <br>
-
-
 
       </div>
 
       <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
-      <?php
 
-      echo '
-      <div class="cod_php">
-      <h4>Resultado</h4>';
-
-      // if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
-      //   $usuario = $_POST['usuario'];
-      //   echo $usuario;
-      // }
-
-      // $errores = '';
-      // $enviado = '';
-
-      // if (isset($_POST['submitBtn'])) {
-      //   $usuario = $_POST['usuario'];
-      //   $email = $_POST['email'];
-      //   $mensaje = $_POST['mensaje'];
-
-      //   if (!empty($usuario)) {
-      //     $usuario = trim($usuario); // elimina los espacios final y principio
-      //   } else {
-      //     $errores .= 'Ingresa un nombre';
-      //     echo $errores;
-      //   }
-      // }
-
-
-
-
-
-
-      echo '</div>';
-      ?>
     </div>
 
   </section>

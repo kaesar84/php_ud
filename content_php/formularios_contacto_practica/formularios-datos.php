@@ -36,9 +36,9 @@ if (isset($_POST['submitBtn'])) {
     if (!$errores) {
         $enviar_a = 'kaesar84@gmail.com';
         $asunto = 'Enviado desde PHP';
-        $mensaje_preparado = 'De: ' . $usuario . '\n';
-        $mensaje_preparado .= 'E-mail ' . $email . '\n';
-        $mensaje_preparado .= 'Mensaje: ' . $mensaje . '\n';
+        $mensaje_preparado = "De: $usuario  \n";
+        $mensaje_preparado .= "E-mail $email \n";
+        $mensaje_preparado .= "Mensaje: $mensaje \n";
 
         // mail($enviar_a, $asunto, $mensaje_preparado);
         $enviado=true;
@@ -48,3 +48,5 @@ if (isset($_POST['submitBtn'])) {
 
 
 require 'formulario.php';
+
+?>

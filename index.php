@@ -313,28 +313,9 @@
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 6 -->
-                            <a href="content_php/formularios_contacto_practica/formulario.php">Formulario contacto</a>
-                        </li>
-                    </ul>
-
-                    <ul>
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 6 -->
                             <a href="content_php/formularios_contacto_practica/formularios-datos.php">Formulario Funcional</a>
                         </li>
                     </ul>
-
-                    <ul>
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 6 -->
-                            <a href="content_php/formularios_contacto_practica/prueba.php"> contacto</a>
-                        </li>
-                    </ul>
-
-
-
                 </div>
             </div>
         </div>
