@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Operador de fusión null</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../../styles/css/index.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <?php
+  echo '<header>
+   <img src="../../media/logophpclaro.png" alt=""> 
+   </header>'
+  ?>
+
+  <section id="sectionTema">
+    <h2>Operador de fusión null</h2>
+    <a href="https://www.php.net/manual/es/filter.filters.php">Filtros</a>
+
+
+    <div class="container ejercicio">
+
+
+      <div class="cod_html">
+        <h4>Si tiene valor aplica nombre, sino anonimo</h4>
+
+        <code>
+        <p>Ternario</p>
+        $nombre =  isset($_GET['nombre']) ? $_GET['nombre'] : 'Anonimo';
+
+        
+        <p>Operador ??</p>
+        $nombre = $_GET['nombre'] ?? 'Anonimo';
+        </code>
+
+        
+
+      </div>
+
+      <!--  >>>>>>>>>>>>>>>>>>>> PHP -->
+      <?php
+
+      echo '
+      <div class="cod_php">
+      <h4>Resultado</h4>';
+
+
+
+      function sanitizarString($string)
+      {
+        $string = strip_tags($string);  // Elimina etiquetas html
+        $string = trim($string); // Elimina espacios en inicio y final
+        $string = htmlspecialchars($string); // Convierte catacteres especiales en entidades HTML, no ejecuta el código
+        $string = stripslashes($string);
+      }
+
+
+      if (isset($_POST['submit1'])) {
+        $usuario = $_POST['usuario'];
+        $tipoPersona = $_POST['tipoPersona'];
+        $horario = $_POST['horario'];
+        $aceptaTerminos = $_POST['input-terminos'];
+        $submit1 = $_POST['submit1'];
+
+        echo '<p>Validaciones</p>';
+        echo '- Impedir vacío y parametros especiales<br>';
+        echo '<br>';
+
+        if (!empty($usuario)) {
+          sanitizarString($usuario);
+
+
+          /* $usuario= filter_var($usuario, $filter = FILTER_SANITIZE_SPECIAL_CHARS); */
+
+          echo 'usuario >>> ' .  $usuario . '<br>';
+        }
+
+
+
+
+
+
+
+
+        /*  echo '<p>Datos capturados<p>';
+        echo '<pre>';
+        print_r($_POST);
+        echo '</pre>'; */
+
+
+        echo '<p>Datos Capturados</p>';
+
+        /* echo 'tipoPersona >>>' .  $tipoPersona . '<br>';
+        echo 'horario >>>' .  $horario . '<br>';
+        echo 'aceptaTerminos >>>' .  $aceptaTerminos . '<br>';
+        echo 'submit1 >>>' .  $submit1 . '<br>'; */
+      }
+
+
+
+
+      echo '</div>';
+      ?>
+    </div>
+
+  </section>
+
+  <footer>
+    <button type="button" class="btn-return"><a href="../../index.php"><i class="bi bi-caret-left-square-fill"></i> Atrás</a></button>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>

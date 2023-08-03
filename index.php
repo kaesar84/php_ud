@@ -26,8 +26,9 @@
 
     <div class="accordion" id="accordionExample">
 
+        <!--  Fundamentos -->
         <div class="accordion-item">
-           <!--  Fundamentos -->
+
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h2> Fundamentos de PHP</h2>
@@ -209,7 +210,7 @@
                             <a href="content_php/fundamentos/scope.php">Scope </a>
                         </li>
 
-                        
+
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 36 -->
@@ -247,16 +248,16 @@
             </div>
         </div>
 
-
+        <!-- Formularios -->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h2> Formularios</h2>
+                    <h2> Formularios</h2>
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                <ul>
+                    <ul>
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 41 -->
@@ -286,64 +287,54 @@
                             <!--  video 46 -->
                             <a href="content_php/formularios/validaciones.php">Validando un formulario</a>
                         </li>
-                       
 
-                    </ul>   
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 47 -->
+                            <a href="content_php/formularios/fusionnull.php">Operador de fusión null</a>
+                        </li>
 
-
+                    </ul>
 
                 </div>
             </div>
         </div>
 
-
+        <!-- Práctica formularios -->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h2>POO</h2>
+                    <h2>Práctica: Formulario de contacto</h2>
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                <ul>
+                    <ul>
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 6 -->
-                            <a href="content_php/variables.php">Variables</a>
+                            <a href="content_php/formularios_contacto_practica/formulario.php">Formulario contacto</a>
                         </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 7 -->
-                            <a href="content_php/constantes.php">Constantes</a>
-
-                        </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 8 -->
-                            <a href="content_php/arrays.php">Arrays Indexados</a>
-                        </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 9 -->
-                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
-                        </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 10 -->
-                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
-                        </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 11 -->
-                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
-                        </li>
-
                     </ul>
+
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/formularios_contacto_practica/formularios-datos.php">Formulario Funcional</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/formularios_contacto_practica/prueba.php"> contacto</a>
+                        </li>
+                    </ul>
+
+
+
                 </div>
             </div>
         </div>
@@ -351,12 +342,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                <h2> Cookies y sesiones</h2>
+                    <h2> Cookies y sesiones</h2>
                 </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                <ul>
+                    <ul>
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 6 -->
@@ -395,18 +386,18 @@
                         </li>
 
                     </ul>
+                </div>
             </div>
+
+
+
+
         </div>
 
 
 
 
-    </div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>

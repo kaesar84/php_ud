@@ -102,6 +102,19 @@
 .formBase .inputSubmit button {
   font-size: 1.2rem;
 }
+.formBase .infoEnvio,
+.formBase .inforError {
+  background-color: #20c997;
+  border-radius: 5px;
+  border: none;
+  padding: 0.75rem;
+}
+.formBase .infoEnvio {
+  background-color: #20c997;
+}
+.formBase .inforError {
+  background-color: #fca360;
+}
 @media (max-width: 480px) {
   .formBase {
     width: 100%;
