@@ -320,10 +320,11 @@
             </div>
         </div>
 
+        <!-- POO -->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                    <h2> Cookies y sesiones</h2>
+                    <h2>POO</h2>
                 </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -331,40 +332,28 @@
                     <ul>
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 6 -->
-                            <a href="content_php/variables.php">Variables</a>
+                            <!--  video 52 -->
+                            <a href="content_php/poo/clases.php">Clases</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 7 -->
-                            <a href="content_php/constantes.php">Constantes</a>
-
+                            <!--  video 53 -->
+                            <a href="content_php/poo/reservadaThis.php">Palabra reservada: THIS</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 8 -->
-                            <a href="content_php/arrays.php">Arrays Indexados</a>
+                            <!--  video 54 -->
+                            <a href="content_php/poo/constructor.php">Método constructor</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 9 -->
-                            <a href="content_php/arraysAsociativos.php">Arrays Asociativos</a>
+                            <!--  video 55 -->
+                            <a href="content_php/poo/herencia.php">Herencia</a>
                         </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 10 -->
-                            <a href="content_php/arraysMultidimensionales.php">Arrays Multidimensionales</a>
-                        </li>
-
-                        <li>
-                            <i class="bi bi-check-all"></i>
-                            <!--  video 11 -->
-                            <a href="content_php/numeroElementosArray.php">Conociendo el número de elementos de un Array</a>
-                        </li>
+                       
 
                     </ul>
                 </div>
