@@ -15,6 +15,9 @@
 <body>
 
     <?php
+
+    use Persona as GlobalPersona;
+
     echo '<header>
    <img src="../../media/logophpclaro.png" alt="">
    </header>'
@@ -27,7 +30,7 @@
             <div class="cod_html">
                 <h4>Código</h4>
 
-                <p>Creación de clase</p>
+                <p>Super Clase</p>
 
                 <code>
                     class Persona <br>
@@ -50,20 +53,44 @@
                     {<br>
                     $info = $this->nombre . ', tiene ' . $this->edad . ' años de edad y reside en ' . $this->pais . '&lt;br&gt;';<br>
                     return $info; <br>
-                     }<br>
                     }<br>
+                    }
 
-                    <p>Nuevo objeto</p>
-                    $cesar = new Persona('César', 39, 'España'); <br>
+                    <p>- Creación de objeto y métodos</p>
                     $alex = new Persona('Alex', 38, 'Colombia'); <br>
+                    echo $alex->mostrarInfo(); <br>
 
 
                     <br>
 
 
-                    <p>Llamada al método</p>
-                    $cesar->mostrarInfo();<br>
-                    $alex->mostrarInfo();<br>
+                    <p>Clase con herencia</p>
+
+                    class Estudiante extends Persona <br>
+                    {<br>
+                    public $curso;<br>
+                    public $universidad;<br>
+                    <br>
+                    // constructor<br>
+                    function __construct($nombre, $edad, $pais, $curso, $universidad)<br>
+                    {<br>
+                    parent::__construct($nombre, $edad, $pais);<br>
+                    $this->curso = $curso;<br>
+                    $this->universidad = $universidad;<br>
+                    }<br>
+                    <br>
+                    public function mostrarInfo()<br>
+                    {<br>
+                    $info = $this->nombre . ', tiene ' . $this->edad . ' años de edad y reside en ' . $this->pais . '&lt;br&gt;';<br>
+                    $info .= 'Esta realizando el curso ' . $this->curso . ' en la universidad ' . $this->universidad . '&lt;br&gt;';<br>
+                    $info .= '&lt;br&gt;';<br>
+                    return $info;<br>
+                    }<br>
+                    }<br>
+
+                    <p>- Creación de objeto y métodos</p>
+                    $cesar = new Estudiante('César', 39, 'España', 1, 'UB');<br>
+                    echo $cesar->mostrarInfo();<br>
 
                 </code>
 
@@ -76,7 +103,7 @@
       <div class="cod_php">
       <h4>Resultado</h4>';
 
-
+            echo '<p>Super Clase</p>';
             class Persona
             {
                 //propiedades de la clase
@@ -100,16 +127,37 @@
                 }
             }
 
-            //Nuevos objetos
-            $cesar = new Persona('César', 39, 'España');
             $alex = new Persona('Alex', 38, 'Colombia');
-
-
-
-            echo '<p>Llamada al método</p>';
-            echo $cesar->mostrarInfo();
             echo $alex->mostrarInfo();
 
+            echo '<p>Clase con herencia</p>';
+
+            // Clase con herencia
+            class Estudiante extends Persona
+            {
+                public $curso;
+                public $universidad;
+
+                // constructor
+                function __construct($nombre, $edad, $pais, $curso, $universidad)
+                {
+                    parent::__construct($nombre, $edad, $pais);
+                    $this->curso = $curso;
+                    $this->universidad = $universidad;
+                }
+
+                public function mostrarInfo()
+                {
+                    $info = $this->nombre . ', tiene ' . $this->edad . ' años de edad y reside en ' . $this->pais . '<br>';
+                    $info .= 'Esta realizando el curso ' . $this->curso . ' en la universidad ' . $this->universidad . '<br>';
+                    $info .= '<br>';
+                    return $info;
+                }
+            }
+
+            // Clase heredada
+            $cesar = new Estudiante('César', 39, 'España', 1, 'UB');
+            echo $cesar->mostrarInfo();
 
             echo '</div>';
             ?>
