@@ -353,7 +353,30 @@
                             <!--  video 55 -->
                             <a href="content_php/poo/herencia.php">Herencia</a>
                         </li>
-                       
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 56 -->
+                            <a href="content_php/poo/scope.php">Scope</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 57 -->
+                            <a href="content_php/poo/clasesAbstractas.php">Clases Abstractas</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 57 -->
+                            <a href="content_php/poo/static.php">Palabra reservada: static</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 58 -->
+                            <a href="content_php/poo/cadenasMetodos.php">Cadenas de métodos</a>
+                        </li>
 
                     </ul>
                 </div>
@@ -364,6 +387,30 @@
 
         </div>
 
+         <!-- Cookies y sesiones -->
+         <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <h2>Sesiones y cookies</h2>
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/sesiones_cookies/sesiones.php">Sesiones</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 6 -->
+                            <a href="content_php/sesiones_cookies/cookies.php">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
 
