@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['nombre'] = 'César';
+
 ?>
 
 
@@ -10,7 +10,7 @@ $_SESSION['nombre'] = 'César';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sesiones</title>
+    <title>Sesiones 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../../styles/css/index.css">
@@ -27,7 +27,7 @@ $_SESSION['nombre'] = 'César';
     ?>
 
     <section id="sectionTema">
-        <h2>Sesiones</h2>
+        <h2>Sesiones 2</h2>
 
         <div class="container ejercicio">
             <div class="cod_html">
@@ -36,16 +36,37 @@ $_SESSION['nombre'] = 'César';
                 <p>En encabezado del documento</p>
                 <code>
 
-                   '&lt;?php <br>
+                    &lt;?php <br>
                     session_start(); <br>
-                    $_SESSION['nombre'] = 'César';?&gt
 
+
+                    <p>Fragmento a introducir en el código</p>
+                    &lt;?php <br>
+
+                    if ($_SESSION) { <br>
+                    $nombre = $_SESSION['nombre']; <br>
+                    echo $_SESSION['nombre']; <br>
+                    } else { <br>
+                    echo 'Sesión no iniciada'; <br>
+                    } <br>
+                    ?>
                 </code>
 
-                <p>- Inicio de sesión</p>
-                <a href="sesiones2.php">Iniciar sesión</a>
+                <p>Mensaje de inicio de sesión</p>
+                <p>- Bienvenido,
+                    <?php
 
-                
+                    if ($_SESSION) {
+                        $nombre = $_SESSION['nombre'];
+                        echo $_SESSION['nombre'];
+                    } else {
+                        echo 'Sesión no iniciada';
+                    }
+                    ?>
+                </p>
+
+                <p><a href="sesiones3_cerrar.php">Cerrar sesión</a></p>
+
 
             </div>
 
@@ -55,7 +76,6 @@ $_SESSION['nombre'] = 'César';
             echo '
       <div class="cod_php">
       <h4>Resultado</h4>';
-
 
 
 
