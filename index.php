@@ -413,6 +413,34 @@
         </div>
 
 
+ <!-- MYSQL -->
+ <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <h2>MYSQL</h2>
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 62-68 -->
+                            <a href="content_php/mysql/fundamentosMysql.php">Fundamentos Mysql</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

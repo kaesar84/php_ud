@@ -1,3 +1,8 @@
+<?php
+setcookie('font-size', '30px', time() + 60 * 60 * 24 * 365, '/'); // duración de la cokkie de una año - disponible para todo el dominio
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -26,14 +31,24 @@
         <div class="container ejercicio">
             <div class="cod_html">
                 <h4>Código</h4>
+                <p>Cokkie seteada </p>
+                - La cookie va determinar el tamaño de la fuente, su duración es de un año. <br>
+                - Disponible en todo el dominio - '/' <br>
 
-        
 
+                <p>Inicio del documento</p>
                 <code>
 
+                    '&lt;?php
+                    setcookie('font-size', '30px', time() + 60 * 60 * 24 * 365, '/');
+                    ?>
+                    <br>
+                    - sustituyendo + por - eliminamos la cokkie
 
 
                 </code>
+<br><br>
+                <a href="cookies-creada.php">Ir a la cookie creada</a>
 
             </div>
 
