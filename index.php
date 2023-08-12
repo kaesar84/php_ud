@@ -387,8 +387,8 @@
 
         </div>
 
-         <!-- Cookies y sesiones -->
-         <div class="accordion-item">
+        <!-- Cookies y sesiones -->
+        <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     <h2>Sesiones y cookies</h2>
@@ -413,8 +413,8 @@
         </div>
 
 
- <!-- MYSQL -->
- <div class="accordion-item">
+        <!-- MYSQL -->
+        <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     <h2>MYSQL</h2>
@@ -440,7 +440,7 @@
                             <!--  video 72 -->
                             <a href="content_php/mysql/consultasQuery.php">Consultas Query</a>
                         </li>
-                       
+
 
                         <li>
                             <i class="bi bi-check-all"></i>
@@ -453,7 +453,38 @@
             </div>
         </div>
 
+        <!-- MYSQLi -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    <h2>MYSQLi</h2>
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 74 -->
+                            <a href="content_php/mysqli/conexionMysqli.php">Conexión MYSQLi</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 75 -->
+                            <a href="content_php/mysqli/lecturaQuery.php">Lectura de información - Query</a>
+                        </li>
 
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 75 -->
+                            <a href="content_php/mysqli/escrituraQuery.php">Escritura - Query</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
 
