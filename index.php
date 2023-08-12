@@ -34,7 +34,7 @@
                     <h2> Fundamentos de PHP</h2>
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
 
                     <ul>
@@ -428,7 +428,26 @@
                             <!--  video 62-68 -->
                             <a href="content_php/mysql/fundamentosMysql.php">Fundamentos Mysql</a>
                         </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 71 -->
+                            <a href="content_php/mysql/conexionPDO.php">Conexión PDO</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 72 -->
+                            <a href="content_php/mysql/consultasQuery.php">Consultas Query</a>
+                        </li>
                        
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 73 -->
+                            <a href="content_php/mysql/consultasStatements.php">Consultas Statements</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
