@@ -476,8 +476,14 @@
 
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 75 -->
+                            <!--  video 76 -->
                             <a href="content_php/mysqli/escrituraQuery.php">Escritura - Query</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 75 -->
+                            <a href="content_php/mysqli/consultasStatements.php">Prepared Staments</a>
                         </li>
 
 

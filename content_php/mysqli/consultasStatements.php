@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Escritura - Query</title>
+    <title>Prepared Staments MYSQLi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../../styles/css/index.css">
@@ -21,12 +21,10 @@
     ?>
 
     <section id="sectionTema">
-        <h2>Escritura - Query</h2>
-
+        <h2>Prepared Staments MYSQLi</h2>
 
         <div class="container ejercicio">
             <div class="cod_html">
-                <h3>No recomendable si introduces variables en la query</h3>
                 <h4>Código</h4>
 
                 <p>Conexión a base de datos</p>
@@ -36,40 +34,16 @@
                 </code>
 
                 <p>Validamos si se ha realizado la conexión</p>
-
+                - Resultado 0 si conexión ok. <br>
+                - IF condicionamos si existe error. <br>
+                <br>
                 <code>
                     if ($conexion->connect_errno) { <br>
                     die('Error al conectar a la BBDD'); <br>
-                    <br>
                     } else { <br>
                     echo '&lt;p>Conexión establecida correctamente&lt;/p>'; <br>
-
-                    echo '&lt;p>Resultado de consultas&lt;/p>'; <br>
-
-                </code>
-
-                <p>Sentencia sql</p>
-                <code>
-                    $sql = 'INSERT INTO usuarios (nombre,email) VALUES ("Raul","raul@correo.com")'; <br>
-                </code>
-                <p>Ejecuta</p>
-                <code>
-                    $conexion->query($sql); <br>
-                </code>
-                <br>
-
-                <p>Numero de filas añadidas</p>
-                <code>
-                    $conexion->query($sql); <br>
-                    if($conexion->affected_rows>=1){ <br>
-                    echo ' Filas agregadas:' . $conexion->affected_rows; <br>
-                    } <br>
-                    <br>
                     }
-
                 </code>
-
-
 
             </div>
 
@@ -83,23 +57,11 @@
             $conexion = new mysqli('localhost', 'root', '', 'prueba_mysqli');
 
 
-            if ($conexion->connect_errno) {
+            if ($conexion->connect_errno) { // resultado 0 si conexión ok, en este caso condicionamos si existe error
                 die('Error al conectar a la BBDD');
             } else {
                 echo '<p>Conexión establecida correctamente</p>';
-
-                // echo '<p>Resultado de consultas</p>';
-
-                // $sql = 'INSERT INTO usuarios (nombre,email) VALUES ("Peach","peach@correo.com")';
-
-                // //ejecuta
-                // $conexion->query($sql);
-                // if ($conexion->affected_rows >= 1) {
-                //     echo ' Filas agregadas:' . $conexion->affected_rows;
-                // }
             }
-
-
 
             echo '</div>';
             ?>
