@@ -412,7 +412,6 @@
             </div>
         </div>
 
-
         <!-- MYSQL -->
         <div class="accordion-item">
             <h2 class="accordion-header">
@@ -492,8 +491,8 @@
             </div>
         </div>
 
- <!-- Paginación -->
- <div class="accordion-item">
+        <!-- Paginación -->
+        <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                     <h2>Paginación</h2>
@@ -507,13 +506,19 @@
                             <!--  video 78 -81-->
                             <a href="content_php/paginacion/paginacion-index.php">Proyecto de páginación</a>
                         </li>
-                        
+
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 78 -81-->
                             <a href="content_php/paginacion/paginacion-codeExpl.php">Detalle del código</a>
                         </li>
-                        
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 78 -81-->
+                            <a href="content_php/paginacion/paginacion-db.php">Base de datos</a>
+                        </li>
+
 
 
                     </ul>
