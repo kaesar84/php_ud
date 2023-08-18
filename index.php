@@ -504,8 +504,14 @@
                     <ul>
                         <li>
                             <i class="bi bi-check-all"></i>
-                            <!--  video 74 -->
-                            <a href="content_php/paginacion/paginacion-index.php">Estructura</a>
+                            <!--  video 78 -81-->
+                            <a href="content_php/paginacion/paginacion-index.php">Proyecto de páginación</a>
+                        </li>
+                        
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 78 -81-->
+                            <a href="content_php/paginacion/paginacion-codeExpl.php">Detalle del código</a>
                         </li>
                         
 

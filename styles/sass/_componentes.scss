@@ -81,6 +81,9 @@
   }
 }
 
+
+
+// Lista de items a mostrar en la paginación
 .lista-paginacion {
   display: flex;
   align-items: center;
@@ -98,7 +101,6 @@
 
   .items-lista-paginacion {
     width: 80%;
-    
 
     li {
       padding: 1rem;
@@ -113,21 +115,23 @@
     }
   }
 
+  // indice numerico de paginación
   nav {
     margin: 2rem 5rem;
     align-self: center;
+
     ul {
       li {
         a {
           font-size: 1.25rem;
           font-weight: 400;
-          color: variables.$primary;
+          //color: black;
         }
       }
       .pag_activa {
         a {
-          background-color: variables.$primary;
-          color: white;
+          background-color: #e4e8ec;
+          //color: black;
         }
       }
     }

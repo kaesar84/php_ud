@@ -156,11 +156,9 @@
 .lista-paginacion nav ul li a {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #0d6efd;
 }
 .lista-paginacion nav ul .pag_activa a {
-  background-color: #0d6efd;
-  color: white;
+  background-color: #e4e8ec;
 }
 
 body {
@@ -310,6 +308,11 @@ footer button a {
     padding: 0;
     margin: 1rem;
   }
+}
+
+.paginacionImg {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=index.css.map */
