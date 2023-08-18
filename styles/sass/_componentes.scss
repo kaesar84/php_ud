@@ -80,3 +80,56 @@
     margin: 0;
   }
 }
+
+.lista-paginacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 3rem;
+  flex-direction: column;
+
+  h3 {
+    color: variables.$primary;
+    align-self: flex-start;
+    margin-left: 5rem;
+    padding: 2rem 0rem;
+    font-size: 3rem;
+  }
+
+  .items-lista-paginacion {
+    width: 80%;
+    
+
+    li {
+      padding: 1rem;
+      //border-color: variables.$primary;
+
+      .titulo-item {
+        font-size: 1.75rem;
+      }
+      .desc-item {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  nav {
+    margin: 2rem 5rem;
+    align-self: center;
+    ul {
+      li {
+        a {
+          font-size: 1.25rem;
+          font-weight: 400;
+          color: variables.$primary;
+        }
+      }
+      .pag_activa {
+        a {
+          background-color: variables.$primary;
+          color: white;
+        }
+      }
+    }
+  }
+}

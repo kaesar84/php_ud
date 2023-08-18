@@ -34,14 +34,47 @@
                 </code>
 
                 <p>Validamos si se ha realizado la conexión</p>
-                - Resultado 0 si conexión ok. <br>
-                - IF condicionamos si existe error. <br>
-                <br>
+
+
                 <code>
                     if ($conexion->connect_errno) { <br>
                     die('Error al conectar a la BBDD'); <br>
                     } else { <br>
                     echo '&lt;p>Conexión establecida correctamente&lt;/p>'; <br>
+
+                    <p>- Preparamos la consulta, dejando los valores como placeholders (?)</p>
+                    $statement = $conexion->prepare("INSERT INTO usuarios (id,nombre,email) VALUES (?,?,?)"); <br>
+                    <p>- Reemplazamos los placeholders (?) con los valores que queremos usar. <br>
+                        s = string <br> i = integer <br>d = double
+                    </p>
+
+
+
+                    <code> $statement->bind_param('iss', $id, $nombre, $email);</code>
+
+                    <p>- Pasamos los parámetros a través de url: <br>http://localhost:8080/php_ud/content_php/mysqli/consultasStatements.php?nombre=Yoshi&email=yoshi@correo.com</p>
+
+                    <p>Asignamos los valores</p>
+                    <code>
+                        $id = NULL; <br>
+                        <br>
+                        if (isset($_GET['nombre']) && isset($_GET['email'])) { <br>
+                        $nombre = $_GET['nombre']; <br>
+                        $email = $_GET['email']; <br>
+                        } <br>
+                    </code>
+
+                    <p>- Ejecutamos</p>
+                    <code> $statement->execute();</code>
+
+
+                    <p>- Información sobre los cambios realizados</p>
+                    if ($conexion->affected_rows >= 1) { <br>
+                    echo 'Filas agregadas ' . $conexion->affected_rows; <br>
+                    }else{ <br>
+                    echo 'No se agregó nada'; <br>
+                    } <br>
+
                     }
                 </code>
 
@@ -61,6 +94,37 @@
                 die('Error al conectar a la BBDD');
             } else {
                 echo '<p>Conexión establecida correctamente</p>';
+
+                // preparar
+                $statement = $conexion->prepare("INSERT INTO usuarios (id,nombre,email) VALUES (?,?,?)");
+                //  Reemplazamos los placeholders (?) con los valores que queremos usar.
+                // s = string
+                // i = integer
+                // d = double
+
+                $statement->bind_param('iss', $id, $nombre, $email);
+
+                // pasamos los parámetros a través de url
+                // http://localhost:8080/php_ud/content_php/mysqli/consultasStatements.php?nombre=Yoshi&email=yoshi@correo.com
+
+                $id = NULL;
+
+                if (isset($_GET['nombre']) && isset($_GET['email'])) {
+                    $nombre = $_GET['nombre'];
+                    $email =  $_GET['email'];
+                }
+
+
+                // ejecutar
+
+                $statement->execute();
+
+
+                if ($conexion->affected_rows >= 1) {
+                    echo 'Filas agregadas ' . $conexion->affected_rows;
+                } else {
+                    echo 'No se agregó nada';
+                }
             }
 
             echo '</div>';

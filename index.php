@@ -492,7 +492,28 @@
             </div>
         </div>
 
+ <!-- Paginación -->
+ <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    <h2>Paginación</h2>
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 74 -->
+                            <a href="content_php/paginacion/paginacion-index.php">Estructura</a>
+                        </li>
+                        
 
+
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
 
