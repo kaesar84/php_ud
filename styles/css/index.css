@@ -190,11 +190,12 @@
   align-items: center;
   padding: 2rem;
   background-color: #191970;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 15px 0px 0px 15px;
 }
 .formulario-login .login-container .container-picture #dragonBall {
   width: 60%;
   height: auto;
+  opacity: 0.9;
 }
 @media (max-width: 400px) {
   .formulario-login .login-container .container-picture #dragonBall {
@@ -207,7 +208,7 @@
   align-items: center;
   justify-content: center;
   background-color: #fa3614;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 15px 15px 0px;
   padding: 2rem 0rem;
 }
 .formulario-login .login-container .container-form #formulario_login {
@@ -215,7 +216,7 @@
   font-size: 1rem;
 }
 .formulario-login .login-container .container-form #formulario_login input {
-  width: 100%;
+  width: 90%;
   margin: 1rem;
   font-size: 1.5rem;
   border: none;
@@ -262,7 +263,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15%;
+  gap: 10%;
 }
 @media (max-width: 780px) {
   .formulario-login .login-container .container-form #formulario_login .container-botones-form {

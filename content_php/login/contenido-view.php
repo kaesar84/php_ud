@@ -32,6 +32,7 @@
                 <form action="" id="formulario_login">
                     <input type="text"  placeholder="Username" aria-label="Username" aria-describedby="usuario" name="usuario">
                     <input type="password"  placeholder="Password" aria-label="password" aria-describedby="password" name="password">
+                    
 
 
                     <div class="container-botones-form">
