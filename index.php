@@ -526,7 +526,35 @@
             </div>
         </div>
 
+        <!-- Paginación -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    <h2>Registro - Login</h2>
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 78 -81-->
+                            <a href="content_php/login/contenido-view.php">Contenido</a>
+                        </li>
 
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 78 -81-->
+                            <a href="content_php/login/paginacion-index.php">Login</a>
+                        </li>
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
 

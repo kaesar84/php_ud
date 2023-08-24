@@ -161,6 +161,161 @@
   background-color: #e4e8ec;
 }
 
+.formulario-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulario-login .login-container {
+  width: 70%;
+  padding: 1rem 2rem;
+}
+@media (max-width: 780px) {
+  .formulario-login .login-container {
+    width: 90%;
+    height: auto;
+    padding: 1rem 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .formulario-login .login-container {
+    min-width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+  }
+}
+.formulario-login .login-container .container-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #191970;
+  border-radius: 5px 0px 0px 5px;
+}
+.formulario-login .login-container .container-picture #dragonBall {
+  width: 60%;
+  height: auto;
+}
+@media (max-width: 400px) {
+  .formulario-login .login-container .container-picture #dragonBall {
+    min-width: 100%;
+    height: auto;
+  }
+}
+.formulario-login .login-container .container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fa3614;
+  border-radius: 0px 5px 5px 0px;
+  padding: 2rem 0rem;
+}
+.formulario-login .login-container .container-form #formulario_login {
+  width: 70%;
+  font-size: 1rem;
+}
+.formulario-login .login-container .container-form #formulario_login input {
+  width: 100%;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid #191970;
+  background-color: #fa3614;
+  color: #191970;
+}
+.formulario-login .login-container .container-form #formulario_login input::placeholder {
+  color: #191970;
+}
+.formulario-login .login-container .container-form #formulario_login input:focus {
+  background-color: #191970;
+  border-color: #fa3614;
+  padding: 0.25rem;
+}
+.formulario-login .login-container .container-form #formulario_login input:focus::placeholder {
+  color: #fa3614;
+}
+@media (max-width: 780px) {
+  .formulario-login .login-container .container-form #formulario_login input {
+    width: 100%;
+    flex-direction: column;
+    font-size: 1rem;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.75rem;
+  }
+}
+@media (max-width: 400px) {
+  .formulario-login .login-container .container-form #formulario_login input {
+    width: 100%;
+    flex-direction: column;
+    font-size: 1rem;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.25rem;
+  }
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+@media (max-width: 780px) {
+  .formulario-login .login-container .container-form #formulario_login .container-botones-form {
+    flex-direction: column;
+    min-width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .formulario-login .login-container .container-form #formulario_login .container-botones-form {
+    flex-direction: column;
+    min-width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form button {
+  min-width: 30%;
+  color: #191970;
+  background-color: #fa3614;
+  border: 1px solid #191970;
+  border-radius: 5px;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form button:hover {
+  background-color: #191970;
+  color: #fa3614;
+  scale: 1.1;
+}
+@media (max-width: 780px) {
+  .formulario-login .login-container .container-form #formulario_login .container-botones-form button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.25rem 1rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+@media (max-width: 400px) {
+  .formulario-login .login-container .container-form #formulario_login .container-botones-form button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.25rem 1rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+
 body {
   padding: 0;
   margin: 0;
