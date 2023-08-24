@@ -222,7 +222,7 @@
   border: none;
   border-bottom: 1px solid #191970;
   background-color: #fa3614;
-  color: #191970;
+  color: #fa3614;
 }
 .formulario-login .login-container .container-form #formulario_login input::placeholder {
   color: #191970;
