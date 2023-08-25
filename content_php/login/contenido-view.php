@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="../../styles/css/index.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,16 +34,16 @@
             <div class="col-7 container-form">
 
                 <form action="" id="formulario_login">
-                    <input type="text"  placeholder="Username" aria-label="Username" aria-describedby="usuario" name="usuario">
-                    <input type="password"  placeholder="Password" aria-label="password" aria-describedby="password" name="password">
-                    
+                    <input type="text" placeholder="Username" aria-label="Username" aria-describedby="usuario" name="usuario">
+                    <input type="password" placeholder="Password" aria-label="password" aria-describedby="password" name="password">
+
 
 
                     <div class="container-botones-form">
-                    <button>Sign in</button>
-                    <button>Sign up</button>
+                        <button id="btnLogin">Entrar</button>
+                        <button id="btnReg">Registro</button>
                     </div>
-                   
+
 
                 </form>
 

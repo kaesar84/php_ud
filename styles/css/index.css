@@ -162,6 +162,8 @@
 }
 
 .formulario-login {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,7 +191,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #191970;
+  background-color: #06387d;
   border-radius: 15px 0px 0px 15px;
 }
 .formulario-login .login-container .container-picture #dragonBall {
@@ -207,7 +209,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fa3614;
+  background-color: #f2441a;
   border-radius: 0px 15px 15px 0px;
   padding: 2rem 0rem;
 }
@@ -220,20 +222,12 @@
   margin: 1rem;
   font-size: 1.5rem;
   border: none;
-  border-bottom: 1px solid #191970;
-  background-color: #fa3614;
-  color: #fa3614;
+  border-bottom: 1px solid #06387d;
+  background-color: #f2441a;
+  color: #06387d;
 }
 .formulario-login .login-container .container-form #formulario_login input::placeholder {
-  color: #191970;
-}
-.formulario-login .login-container .container-form #formulario_login input:focus {
-  background-color: #191970;
-  border-color: #fa3614;
-  padding: 0.25rem;
-}
-.formulario-login .login-container .container-form #formulario_login input:focus::placeholder {
-  color: #fa3614;
+  color: #06387d;
 }
 @media (max-width: 780px) {
   .formulario-login .login-container .container-form #formulario_login input {
@@ -263,7 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10%;
+  gap: 2rem;
 }
 @media (max-width: 780px) {
   .formulario-login .login-container .container-form #formulario_login .container-botones-form {
@@ -286,18 +280,13 @@
   }
 }
 .formulario-login .login-container .container-form #formulario_login .container-botones-form button {
-  min-width: 30%;
-  color: #191970;
-  background-color: #fa3614;
-  border: 1px solid #191970;
+  min-width: 40%;
   border-radius: 5px;
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 2rem;
   font-size: 1.1rem;
   transition: all 0.3s;
 }
 .formulario-login .login-container .container-form #formulario_login .container-botones-form button:hover {
-  background-color: #191970;
-  color: #fa3614;
   scale: 1.1;
 }
 @media (max-width: 780px) {
@@ -315,6 +304,16 @@
     padding: 0.25rem 1rem;
     margin: 0rem 0rem 0rem 0rem;
   }
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form #btnLogin {
+  color: #f2441a;
+  background-color: #06387d;
+  border: 1px solid #06387d;
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form #btnReg {
+  color: #06387d;
+  background-color: #f2441a;
+  border: 1px solid #06387d;
 }
 
 body {

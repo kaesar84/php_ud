@@ -138,6 +138,8 @@
 
 // Registro - Login
 .formulario-login {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,7 +165,7 @@
       justify-content: center;
       align-items: center;
       padding: 2rem;
-      background-color: #191970;
+      background-color: variables.$gokuBlue;
       border-radius: 15px 0px 0px 15px;
 
       #dragonBall {
@@ -185,7 +187,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #fa3614;
+      background-color: variables.$gokuOrange;
       border-radius: 0px 15px 15px 0px;
       padding: 2rem 0rem;
 
@@ -198,20 +200,22 @@
           margin: 1rem;
           font-size: 1.5rem;
           border: none;
-          border-bottom: 1px solid #191970;
-          background-color: #fa3614;
-          color: #fa3614;
+          border-bottom: 1px solid variables.$gokuBlue;
+          background-color: variables.$gokuOrange;
+          color: variables.$gokuBlue;
           &::placeholder {
-            color: #191970;
+            color: variables.$gokuBlue;
           }
-          &:focus {
-            background-color: #191970;
-            border-color: #fa3614;
-            padding: 0.25rem;
-            &::placeholder {
-              color: #fa3614;
-            }
-          }
+          // &:focus {
+          // background-color: variables.$gokuBlue;
+          //   border-color: variables.$gokuOrange;
+
+          //   &::placeholder {
+          //     color: variables.$gokuOrange;
+          //   }
+
+          // }
+
           @media (max-width: 780px) {
             width: 100%;
             flex-direction: column;
@@ -239,7 +243,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: 10%;
+          gap: 2rem;
 
           @media (max-width: 780px) {
             flex-direction: column;
@@ -260,17 +264,12 @@
           }
 
           button {
-            min-width: 30%;
-            color: #191970;
-            background-color: #fa3614;
-            border: 1px solid #191970;
+            min-width: 40%;
             border-radius: 5px;
-            padding: 0.5rem 2.5rem;
+            padding: 0.5rem 2rem;
             font-size: 1.1rem;
             transition: all 0.3s;
             &:hover {
-              background-color: #191970;
-              color: #fa3614;
               scale: 1.1;
             }
             @media (max-width: 780px) {
@@ -285,14 +284,19 @@
               font-size: 0.9rem;
               padding: 0.25rem 1rem;
               margin: 0rem 0rem 0rem 0rem;
-
-              //   flex-direction: column;
-              //   width: 100%;
-              //   height: auto;
-              //   gap: 0.5rem;
-              //   text-align: center;
-              //   padding: 0;
             }
+          }
+
+          #btnLogin {
+            color: variables.$gokuOrange;
+            background-color: variables.$gokuBlue;
+            border: 1px solid variables.$gokuBlue;
+          }
+
+          #btnReg {
+            color: variables.$gokuBlue;
+            background-color: variables.$gokuOrange;
+            border: 1px solid variables.$gokuBlue;
           }
         }
       }
