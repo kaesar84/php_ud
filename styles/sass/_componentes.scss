@@ -303,3 +303,78 @@
     }
   }
 }
+
+// contenido registrado
+#contenidoLogeado {
+  width: 100%;
+  align-self: center;
+  height: auto;
+  flex-direction: column;
+  gap: 3rem;
+  h5 {
+    font-size: 2.5rem;
+  }
+  .content-log {
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    // background-color: #fca360;
+    padding: 1rem 0rem;
+    background-image: url(../../media/shenron.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .capa {
+      margin: 0;
+      padding: 1rem;
+      width: 50%;
+      height: auto;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        margin: 0;
+        color: variables.$gokuBlue;
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+      @media (min-width: 1920px) {
+         max-width: 800px;
+       
+      }
+
+      @media (max-width: 780px) {
+        width: 80%;
+        font-size: 0.9rem;
+      }
+      @media (max-width: 400px) {
+        width: 80%;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .container-cierre {
+    a {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      background-color: variables.$gokuBlue;
+      border-radius: 1rem;
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        background-color: variables.$gokuOrange;
+      }
+    }
+  }
+}

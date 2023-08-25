@@ -316,6 +316,78 @@
   border: 1px solid #06387d;
 }
 
+#contenidoLogeado {
+  width: 100%;
+  align-self: center;
+  height: auto;
+  flex-direction: column;
+  gap: 3rem;
+}
+#contenidoLogeado h5 {
+  font-size: 2.5rem;
+}
+#contenidoLogeado .content-log {
+  width: 80%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  padding: 1rem 0rem;
+  background-image: url(../../media/shenron.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contenidoLogeado .content-log .capa {
+  margin: 0;
+  padding: 1rem;
+  width: 50%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenidoLogeado .content-log .capa p {
+  margin: 0;
+  color: #06387d;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+@media (min-width: 1920px) {
+  #contenidoLogeado .content-log .capa {
+    max-width: 800px;
+  }
+}
+@media (max-width: 780px) {
+  #contenidoLogeado .content-log .capa {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 400px) {
+  #contenidoLogeado .content-log .capa {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+}
+#contenidoLogeado .container-cierre a {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background-color: #06387d;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: white;
+}
+#contenidoLogeado .container-cierre a:hover {
+  background-color: #f2441a;
+}
+
 body {
   padding: 0;
   margin: 0;

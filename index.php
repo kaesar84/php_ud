@@ -526,7 +526,7 @@
             </div>
         </div>
 
-        <!-- Paginación -->
+        <!-- Registro Login -->
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -536,16 +536,25 @@
             <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
-                        <li>
+
+                    <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 78 -81-->
-                            <a href="content_php/login/contenido-view.php">Contenido</a>
+                            <a href="content_php/login/contenido-view-form.php">Formulario</a>
                         </li>
 
                         <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 78 -81-->
-                            <a href="content_php/login/paginacion-index.php">Login</a>
+                            <a href="content_php/login/contenido-view.php">Contenido Logeado</a>
+                        </li>
+
+
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 78 -81-->
+                            <a href="content_php/login/start.php">Start</a>
                         </li>
 
 

@@ -14,8 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
-
-   
 </head>
 
 <body>
@@ -27,20 +25,31 @@
    </header>'
     ?>
 
-    <section class="formulario-login" id="contenidoLogeado">
-    <h5>Bienvenido</h5>  
-    <div class="content-log">
-        <div class="capa">
-            <p>SESIÓN INICIADA</p>
-        </div>
-        <!-- <img src="../../media/dragonball.png" alt=""> -->
-       
-      </div>
-       <div class="container-cierre">
-       <a href="#">Cerrar sesión</a>
-       </div>
-    
+    <section class="formulario-login">
+        <div class="row login-container">
+            <div class="col-5 container-picture">
+                <img src="../../media/dragonball.png" class="img-fluid" alt="dragon ball 1star" id="dragonBall">
+            </div>
 
+            <div class="col-7 container-form">
+
+                <form action="" id="formulario_login">
+                    <input type="text" placeholder="Username" aria-label="Username" aria-describedby="usuario" name="usuario">
+                    <input type="password" placeholder="Password" aria-label="password" aria-describedby="password" name="password">
+
+
+
+                    <div class="container-botones-form">
+                        <button id="btnLogin">Entrar</button>
+                        <button id="btnReg">Registro</button>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+        </div>
     </section>
 
 
