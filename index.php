@@ -540,7 +540,13 @@
                     <li>
                             <i class="bi bi-check-all"></i>
                             <!--  video 78 -81-->
-                            <a href="content_php/login/contenido-view-form.php">Formulario</a>
+                            <a href="content_php/login/login-view.php">Formulario Login</a>
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-all"></i>
+                            <!--  video 78 -81-->
+                            <a href="content_php/login/registrate-view.php">Formulario Registro</a>
                         </li>
 
                         <li>

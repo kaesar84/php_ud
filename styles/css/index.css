@@ -191,17 +191,24 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #06387d;
+  background-color: #f8f9fa;
   border-radius: 15px 0px 0px 15px;
+  border: 1px solid #0d6efd;
 }
-.formulario-login .login-container .container-picture #dragonBall {
-  width: 60%;
+.formulario-login .login-container .container-picture #loginImg {
+  width: 85%;
   height: auto;
   opacity: 0.9;
 }
+@media (max-width: 780px) {
+  .formulario-login .login-container .container-picture #loginImg {
+    width: 90%;
+    height: auto;
+  }
+}
 @media (max-width: 400px) {
-  .formulario-login .login-container .container-picture #dragonBall {
-    min-width: 100%;
+  .formulario-login .login-container .container-picture #loginImg {
+    min-width: 125px;
     height: auto;
   }
 }
@@ -209,9 +216,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2441a;
+  background-color: #0d6efd;
   border-radius: 0px 15px 15px 0px;
   padding: 2rem 0rem;
+  border: 1px solid #0d6efd;
 }
 .formulario-login .login-container .container-form #formulario_login {
   width: 70%;
@@ -222,12 +230,12 @@
   margin: 1rem;
   font-size: 1.5rem;
   border: none;
-  border-bottom: 1px solid #06387d;
-  background-color: #f2441a;
-  color: #06387d;
+  border-bottom: 1px solid #f8f9fa;
+  background-color: #0d6efd;
+  color: #f8f9fa;
 }
 .formulario-login .login-container .container-form #formulario_login input::placeholder {
-  color: #06387d;
+  color: #f8f9fa;
 }
 @media (max-width: 780px) {
   .formulario-login .login-container .container-form #formulario_login input {
@@ -244,7 +252,7 @@
   .formulario-login .login-container .container-form #formulario_login input {
     width: 100%;
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 0.8rem;
     height: auto;
     padding: 0;
     margin: 0;
@@ -280,10 +288,10 @@
   }
 }
 .formulario-login .login-container .container-form #formulario_login .container-botones-form button {
-  min-width: 40%;
+  min-width: 35%;
   border-radius: 5px;
   padding: 0.5rem 2rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   transition: all 0.3s;
 }
 .formulario-login .login-container .container-form #formulario_login .container-botones-form button:hover {
@@ -291,7 +299,7 @@
 }
 @media (max-width: 780px) {
   .formulario-login .login-container .container-form #formulario_login .container-botones-form button {
-    width: 100%;
+    width: 80%;
     font-size: 0.9rem;
     padding: 0.25rem 1rem;
     margin: 0rem 0rem 0rem 0rem;
@@ -299,21 +307,42 @@
 }
 @media (max-width: 400px) {
   .formulario-login .login-container .container-form #formulario_login .container-botones-form button {
-    width: 100%;
+    width: 90%;
     font-size: 0.9rem;
     padding: 0.25rem 1rem;
     margin: 0rem 0rem 0rem 0rem;
+    font-size: 0.7rem;
   }
 }
 .formulario-login .login-container .container-form #formulario_login .container-botones-form #btnLogin {
-  color: #f2441a;
-  background-color: #06387d;
-  border: 1px solid #06387d;
+  color: #0d6efd;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form #btnLogin a {
+  text-decoration: none;
+  color: #0d6efd;
 }
 .formulario-login .login-container .container-form #formulario_login .container-botones-form #btnReg {
-  color: #06387d;
-  background-color: #f2441a;
-  border: 1px solid #06387d;
+  color: #f8f9fa;
+  background-color: #0d6efd;
+  border: 1px solid #f8f9fa;
+}
+.formulario-login .login-container .container-form #formulario_login .container-botones-form #btnReg a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+.formulario-login .error {
+  color: white;
+  padding: 0;
+  font-size: 1.1rem;
+}
+.formulario-login .error p {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+.formulario-login .error p i {
+  margin-right: 0.5rem;
 }
 
 #contenidoLogeado {
@@ -334,9 +363,6 @@
   align-items: start;
   flex-direction: row;
   padding: 1rem 0rem;
-  background-image: url(../../media/shenron.png);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #contenidoLogeado .content-log .capa {
   margin: 0;

@@ -28,20 +28,20 @@
     <section class="formulario-login">
         <div class="row login-container">
             <div class="col-5 container-picture">
-                <img src="../../media/dragonball.png" class="img-fluid" alt="dragon ball 1star" id="dragonBall">
+            <img src="../../media/login.png" class="img-fluid" alt="pc identify" id="loginImg">
             </div>
 
             <div class="col-7 container-form">
 
-                <form action="" id="formulario_login">
+            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" id="formulario_login" name="login"> 
                     <input type="text" placeholder="Username" aria-label="Username" aria-describedby="usuario" name="usuario">
                     <input type="password" placeholder="Password" aria-label="password" aria-describedby="password" name="password">
 
 
 
                     <div class="container-botones-form">
-                        <button id="btnLogin">Entrar</button>
-                        <button id="btnReg">Registro</button>
+                    <button id="btnLogin" onclick="login.submit()"><a href="login.php">Entrar</a></button>
+                    <button id="btnReg"><a href="registrate.php">Registro</a></button>
                     </div>
 
 
