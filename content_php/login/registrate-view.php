@@ -44,15 +44,20 @@
                         <button id="btnReg"><a href="login.php">Cancelar</a></button>
                     </div>
 
-                    <?php if (!empty($errores)) : ?>
+                    <?php if (!empty($errores) or !empty($erroresPass)) : ?>
                         <div class="error">
 
                             <?php echo $errores; ?>
+                            <?php echo $erroresPass; ?>
 
                         </div>
                     <?php endif; ?>
 
-
+                    <?php if ($result) : ?>
+                        <div class="error">
+                            <?php echo $registroOk; ?>
+                        </div>
+                    <?php endif; ?>
 
                 </form>
 
