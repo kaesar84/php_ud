@@ -40,7 +40,7 @@ if (isset($_POST['submitBtn'])) {
         $mensaje_preparado .= "E-mail $email \n";
         $mensaje_preparado .= "Mensaje: $mensaje \n";
 
-        // mail($enviar_a, $asunto, $mensaje_preparado);
+        mail($enviar_a, $asunto, $mensaje_preparado);
         $enviado=true;
     }
 }
